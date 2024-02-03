@@ -1975,7 +1975,71 @@
                                                                     "type": "Text",
                                                                     "id": "rqQ2robxt{2`p:07/+,p",
                                                                     "fields": {
-                                                                      "TEXT": "no tickets left"
+                                                                      "TEXT": "no tickets left - Team1: {} - Team2: {} - Event: {}"
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "VALUE-1": {
+                                                                  "block": {
+                                                                    "type": "GetGamemodeScore",
+                                                                    "id": "kIi~S?-5xlAq26Q%:8mI",
+                                                                    "inputs": {
+                                                                      "VALUE-0": {
+                                                                        "block": {
+                                                                          "type": "EventTeam",
+                                                                          "id": "X|Ub[m#vN^oC:p?}4-jD"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "VALUE-2": {
+                                                                  "block": {
+                                                                    "type": "GetGamemodeScore",
+                                                                    "id": "1yvwmg1nM{FdbtfmO-/g",
+                                                                    "inputs": {
+                                                                      "VALUE-0": {
+                                                                        "block": {
+                                                                          "type": "GetTeamId",
+                                                                          "id": ";$+.!.bM_]CUFKI4:EAP",
+                                                                          "inputs": {
+                                                                            "VALUE-0": {
+                                                                              "block": {
+                                                                                "type": "Number",
+                                                                                "id": "yMeqa*~J:50FX:`ODgn*",
+                                                                                "fields": {
+                                                                                  "NUM": 1
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "VALUE-3": {
+                                                                  "block": {
+                                                                    "type": "GetGamemodeScore",
+                                                                    "id": "}7s_aM#)~0RJp?Ocx07A",
+                                                                    "inputs": {
+                                                                      "VALUE-0": {
+                                                                        "block": {
+                                                                          "type": "GetTeamId",
+                                                                          "id": "cL:,WnbFF39_W+CTY^S9",
+                                                                          "inputs": {
+                                                                            "VALUE-0": {
+                                                                              "block": {
+                                                                                "type": "Number",
+                                                                                "id": "Z,AVLzcB3jl+Hzv4`.ub",
+                                                                                "fields": {
+                                                                                  "NUM": 2
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
                                                                     }
                                                                   }
                                                                 }
@@ -2031,7 +2095,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 6325,
+        "y": 6341,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -2044,7 +2108,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 6588,
+        "y": 6604,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -2057,7 +2121,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 6043,
+        "y": 6059,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -2132,7 +2196,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 5341,
+        "y": 5357,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -2405,7 +2469,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 4437,
+        "y": 4453,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -2669,7 +2733,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 4858,
+        "y": 4874,
         "extraState": {
           "subroutineName": "initMcom",
           "parameters": [
