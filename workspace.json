@@ -1834,14 +1834,45 @@
                                                 },
                                                 "ACTIONS": {
                                                   "block": {
-                                                    "type": "subroutineInstanceBlock",
-                                                    "id": "GlD)+(I{j0ZzuDT#!XU5",
-                                                    "extraState": {
-                                                      "subroutineName": "endGameMode",
-                                                      "parameters": []
+                                                    "type": "SendErrorReport",
+                                                    "id": "RGiLy2r|2UX7J+_#pON5",
+                                                    "inputs": {
+                                                      "VALUE-0": {
+                                                        "block": {
+                                                          "type": "Message",
+                                                          "id": "aA2{m)at9[db$C1=%6@A",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "Text",
+                                                                "id": "TY{W+mpme+NwBD#H@|^Z",
+                                                                "fields": {
+                                                                  "TEXT": "no time left"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
                                                     },
-                                                    "fields": {
-                                                      "SUBROUTINE_NAME": "endGameMode"
+                                                    "next": {
+                                                      "block": {
+                                                        "type": "Abort",
+                                                        "id": "(iBIfGt+J(PWOJ$-AFH=",
+                                                        "next": {
+                                                          "block": {
+                                                            "type": "subroutineInstanceBlock",
+                                                            "id": "GlD)+(I{j0ZzuDT#!XU5",
+                                                            "extraState": {
+                                                              "subroutineName": "endGameMode",
+                                                              "parameters": []
+                                                            },
+                                                            "fields": {
+                                                              "SUBROUTINE_NAME": "endGameMode"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
                                                     }
                                                   }
                                                 }
@@ -1931,14 +1962,45 @@
                                                     },
                                                     "ACTIONS": {
                                                       "block": {
-                                                        "type": "subroutineInstanceBlock",
-                                                        "id": "{r@F5^@,t_ymj?kl`.O[",
-                                                        "extraState": {
-                                                          "subroutineName": "endGameMode",
-                                                          "parameters": []
+                                                        "type": "SendErrorReport",
+                                                        "id": "gqV.CR~z)|P$:=ONA$wm",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "Message",
+                                                              "id": "0peEGteb|re6#]Rkh7br",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "Text",
+                                                                    "id": "rqQ2robxt{2`p:07/+,p",
+                                                                    "fields": {
+                                                                      "TEXT": "no tickets left"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
                                                         },
-                                                        "fields": {
-                                                          "SUBROUTINE_NAME": "endGameMode"
+                                                        "next": {
+                                                          "block": {
+                                                            "type": "Abort",
+                                                            "id": "`ZowHnoch*k?;x0U_h@D",
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "subroutineInstanceBlock",
+                                                                "id": "{r@F5^@,t_ymj?kl`.O[",
+                                                                "extraState": {
+                                                                  "subroutineName": "endGameMode",
+                                                                  "parameters": []
+                                                                },
+                                                                "fields": {
+                                                                  "SUBROUTINE_NAME": "endGameMode"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
                                                         }
                                                       }
                                                     }
@@ -1969,7 +2031,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 6105,
+        "y": 6325,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -1982,7 +2044,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 6368,
+        "y": 6588,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -1995,7 +2057,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 5823,
+        "y": 6043,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -2070,7 +2132,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 5121,
+        "y": 5341,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -2343,7 +2405,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 4217,
+        "y": 4437,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -2607,7 +2669,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 4638,
+        "y": 4858,
         "extraState": {
           "subroutineName": "initMcom",
           "parameters": [
