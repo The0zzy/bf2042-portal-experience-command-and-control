@@ -168,130 +168,130 @@
                             },
                             "next": {
                               "block": {
-                                "type": "If",
-                                "id": "%b!O{WER#mAyKt8M1LyT",
-                                "extraState": {
-                                  "elseif": 0,
-                                  "else": 1
-                                },
+                                "type": "SetVariable",
+                                "id": ":Yoe5n?..j)h3imvr863",
                                 "inputs": {
                                   "VALUE-0": {
                                     "block": {
-                                      "type": "Equals",
-                                      "id": "5uKY=TZ$|I(Di3!z~l+Q",
-                                      "inputs": {
-                                        "VALUE-0": {
-                                          "block": {
-                                            "type": "GetVariable",
-                                            "id": "W%/A7N#j$d?RXzpuzk,K",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "variableReferenceBlock",
-                                                  "id": "sLj7WDCM5Ts@m-R^1vT`",
-                                                  "extraState": {
-                                                    "isObjectVar": false
-                                                  },
-                                                  "fields": {
-                                                    "OBJECTTYPE": "Global",
-                                                    "VAR": {
-                                                      "id": ":M2x^kEWYh[$GEl,K@(b"
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "VALUE-1": {
-                                          "block": {
-                                            "type": "Boolean",
-                                            "id": "z,KKx[7mpSxug*KJub$:",
-                                            "fields": {
-                                              "BOOL": "TRUE"
-                                            }
-                                          }
+                                      "type": "variableReferenceBlock",
+                                      "id": "ZTzwBqSKZVia%#kbh+@1",
+                                      "extraState": {
+                                        "isObjectVar": false
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "Global",
+                                        "VAR": {
+                                          "id": ":M2x^kEWYh[$GEl,K@(b"
                                         }
                                       }
                                     }
                                   },
-                                  "DO": {
+                                  "VALUE-1": {
                                     "block": {
-                                      "type": "SendErrorReport",
-                                      "id": "2aNPHES;zq`,y$U=UYj$",
-                                      "inputs": {
-                                        "VALUE-0": {
-                                          "block": {
-                                            "type": "Message",
-                                            "id": "[fx5BzRd!|K+F$iLJ_)5",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "Text",
-                                                  "id": "h:J0*j}_lJ6m9jdQ=jTh",
-                                                  "fields": {
-                                                    "TEXT": "DEBUG: variable <gameOngoing> = TRUE"
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  },
-                                  "ELSE": {
-                                    "block": {
-                                      "type": "SendErrorReport",
-                                      "id": "_pv|lbaHJ1$uV$*:Lk=a",
-                                      "inputs": {
-                                        "VALUE-0": {
-                                          "block": {
-                                            "type": "Message",
-                                            "id": "U1-);I=V,sn%s;:]%Z(/",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "Text",
-                                                  "id": "|96!3L,VcAUX(.$DOlEM",
-                                                  "fields": {
-                                                    "TEXT": "DEBUG: variable <gameOngoing> = FALSE"
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
+                                      "type": "Boolean",
+                                      "id": "=n-KaBySu4~NKvhKk+2|",
+                                      "fields": {
+                                        "BOOL": "FALSE"
                                       }
                                     }
                                   }
                                 },
                                 "next": {
                                   "block": {
-                                    "type": "SetVariable",
-                                    "id": ":Yoe5n?..j)h3imvr863",
+                                    "type": "If",
+                                    "id": "%b!O{WER#mAyKt8M1LyT",
+                                    "extraState": {
+                                      "elseif": 0,
+                                      "else": 1
+                                    },
                                     "inputs": {
                                       "VALUE-0": {
                                         "block": {
-                                          "type": "variableReferenceBlock",
-                                          "id": "ZTzwBqSKZVia%#kbh+@1",
-                                          "extraState": {
-                                            "isObjectVar": false
-                                          },
-                                          "fields": {
-                                            "OBJECTTYPE": "Global",
-                                            "VAR": {
-                                              "id": ":M2x^kEWYh[$GEl,K@(b"
+                                          "type": "Equals",
+                                          "id": "5uKY=TZ$|I(Di3!z~l+Q",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "GetVariable",
+                                                "id": "W%/A7N#j$d?RXzpuzk,K",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "variableReferenceBlock",
+                                                      "id": "sLj7WDCM5Ts@m-R^1vT`",
+                                                      "extraState": {
+                                                        "isObjectVar": false
+                                                      },
+                                                      "fields": {
+                                                        "OBJECTTYPE": "Global",
+                                                        "VAR": {
+                                                          "id": ":M2x^kEWYh[$GEl,K@(b"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "VALUE-1": {
+                                              "block": {
+                                                "type": "Boolean",
+                                                "id": "z,KKx[7mpSxug*KJub$:",
+                                                "fields": {
+                                                  "BOOL": "TRUE"
+                                                }
+                                              }
                                             }
                                           }
                                         }
                                       },
-                                      "VALUE-1": {
+                                      "DO": {
                                         "block": {
-                                          "type": "Boolean",
-                                          "id": "=n-KaBySu4~NKvhKk+2|",
-                                          "fields": {
-                                            "BOOL": "FALSE"
+                                          "type": "SendErrorReport",
+                                          "id": "2aNPHES;zq`,y$U=UYj$",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "Message",
+                                                "id": "[fx5BzRd!|K+F$iLJ_)5",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "Text",
+                                                      "id": "h:J0*j}_lJ6m9jdQ=jTh",
+                                                      "fields": {
+                                                        "TEXT": "DEBUG: variable <gameOngoing> = TRUE"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "ELSE": {
+                                        "block": {
+                                          "type": "SendErrorReport",
+                                          "id": "_pv|lbaHJ1$uV$*:Lk=a",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "Message",
+                                                "id": "U1-);I=V,sn%s;:]%Z(/",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "Text",
+                                                      "id": "|96!3L,VcAUX(.$DOlEM",
+                                                      "fields": {
+                                                        "TEXT": "DEBUG: variable <gameOngoing> = FALSE"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
                                           }
                                         }
                                       }
@@ -2620,13 +2620,14 @@
                                                                 "block": {
                                                                   "type": "Message",
                                                                   "id": "0peEGteb|re6#]Rkh7br",
+                                                                  "inline": false,
                                                                   "inputs": {
                                                                     "VALUE-0": {
                                                                       "block": {
                                                                         "type": "Text",
                                                                         "id": "rqQ2robxt{2`p:07/+,p",
                                                                         "fields": {
-                                                                          "TEXT": "no tickets left - Team1: {} - Team2: {} - Event: {}"
+                                                                          "TEXT": "no tickets left - EventTeam: {} - Team1: {} - Team2: {}"
                                                                         }
                                                                       }
                                                                     },
@@ -2748,7 +2749,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 7816,
+        "y": 8040,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -2761,7 +2762,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 8079,
+        "y": 8303,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -2774,7 +2775,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 7534,
+        "y": 7758,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -2849,7 +2850,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 6411,
+        "y": 6635,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -3122,7 +3123,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 7113,
+        "y": 7337,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -3386,7 +3387,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 5928,
+        "y": 6152,
         "extraState": {
           "subroutineName": "initMcom",
           "parameters": [
