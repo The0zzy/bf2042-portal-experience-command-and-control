@@ -4677,15 +4677,6 @@
                                       "TEXT": "TEAM 1"
                                     }
                                   }
-                                },
-                                "VALUE-1": {
-                                  "block": {
-                                    "type": "subroutineArgumentBlock",
-                                    "id": "2ym3@0qTrU4Q^8A|V7Cb",
-                                    "fields": {
-                                      "ARGUMENT_INDEX": "2"
-                                    }
-                                  }
                                 }
                               }
                             }
