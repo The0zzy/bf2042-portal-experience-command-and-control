@@ -16,7 +16,7 @@
                 "isOngoingEvent": false
               },
               "fields": {
-                "NAME": "secondEmulationInitialization",
+                "NAME": "gameInitialization",
                 "EVENTTYPE": "OnGameModeStarted"
               },
               "inputs": {
