@@ -2365,20 +2365,6 @@
                                                       "id": "=cyWu!LhwOHF$/__`TR+"
                                                     }
                                                   }
-                                                },
-                                                "next": {
-                                                  "block": {
-                                                    "type": "UnspotTarget",
-                                                    "id": "|@M?PDLB1`FGCGDk~vtn",
-                                                    "inputs": {
-                                                      "VALUE-0": {
-                                                        "block": {
-                                                          "type": "EventPlayer",
-                                                          "id": "[yV1d_2%#BCO+wA?)(Hm"
-                                                        }
-                                                      }
-                                                    }
-                                                  }
                                                 }
                                               }
                                             }
@@ -3027,6 +3013,48 @@
                                                                                       }
                                                                                     }
                                                                                   }
+                                                                                },
+                                                                                "next": {
+                                                                                  "block": {
+                                                                                    "type": "TriggerAudioAtLocation",
+                                                                                    "id": "EvzR6cYs(,f?qrd1aqb|",
+                                                                                    "inputs": {
+                                                                                      "VALUE-0": {
+                                                                                        "block": {
+                                                                                          "type": "LocationalSoundsItem",
+                                                                                          "id": "Q8ych8=xnMa@mUdY*gdD",
+                                                                                          "fields": {
+                                                                                            "VALUE-0": "LocationalSounds",
+                                                                                            "VALUE-1": "Alarm_02"
+                                                                                          }
+                                                                                        }
+                                                                                      },
+                                                                                      "VALUE-1": {
+                                                                                        "block": {
+                                                                                          "type": "GetSoldierState",
+                                                                                          "id": "g+x,Au7LHE$f.7::(I:K",
+                                                                                          "inputs": {
+                                                                                            "VALUE-0": {
+                                                                                              "block": {
+                                                                                                "type": "EventPlayer",
+                                                                                                "id": "d%NX//oJxC5l]?j)B+wt"
+                                                                                              }
+                                                                                            },
+                                                                                            "VALUE-1": {
+                                                                                              "block": {
+                                                                                                "type": "SoldierStateVectorItem",
+                                                                                                "id": "wYPAv|_(VP:gqQ05h{$6",
+                                                                                                "fields": {
+                                                                                                  "VALUE-0": "SoldierStateVector",
+                                                                                                  "VALUE-1": "GetPosition"
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
                                                                                 }
                                                                               }
                                                                             }
@@ -3069,7 +3097,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 9235,
+        "y": 9294,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -3110,7 +3138,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 11026,
+        "y": 11085,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -3123,7 +3151,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 8953,
+        "y": 9012,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -3198,7 +3226,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 7535,
+        "y": 7594,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -3471,7 +3499,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 8237,
+        "y": 8296,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -3978,7 +4006,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 6454,
+        "y": 6513,
         "extraState": {
           "subroutineName": "addMcom",
           "parameters": [
@@ -4465,7 +4493,7 @@
         "type": "subroutineBlock",
         "id": "@bNE:npsQk;n*pQX^5Pg",
         "x": 0,
-        "y": 7095,
+        "y": 7154,
         "extraState": {
           "subroutineName": "enableMcom",
           "parameters": [
@@ -4832,7 +4860,7 @@
         "type": "subroutineBlock",
         "id": "@K]PSsiqD:*G,{iJ.IYY",
         "x": 0,
-        "y": 9552,
+        "y": 9611,
         "extraState": {
           "subroutineName": "displayMessages",
           "parameters": []
@@ -5023,7 +5051,7 @@
         "type": "subroutineBlock",
         "id": "s9{IbuJ8rr0^mLK]e^%o",
         "x": 0,
-        "y": 10003,
+        "y": 10062,
         "extraState": {
           "subroutineName": "hackerActions",
           "parameters": []
@@ -5892,7 +5920,7 @@
         "type": "subroutineBlock",
         "id": "NyyMZoic50u)]pC5H$x2",
         "x": 0,
-        "y": 6121,
+        "y": 6129,
         "extraState": {
           "subroutineName": "initPlayerVariables",
           "parameters": [
@@ -5978,6 +6006,20 @@
                         "id": "]u:jA1B,f!IQKgYZGDKv",
                         "fields": {
                           "NUM": 0
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "UnspotTarget",
+                      "id": "(Lv[Qb+KExR]x(Wdq9V3",
+                      "inputs": {
+                        "VALUE-0": {
+                          "block": {
+                            "type": "EventPlayer",
+                            "id": "TzbSt2_tjrGv|uht$96["
+                          }
                         }
                       }
                     }
