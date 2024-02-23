@@ -6640,18 +6640,10 @@
                     },
                     "PARAM-1": {
                       "block": {
-                        "type": "GetTeamId",
-                        "id": "FH|t{w3cVz#*RpzA][Gr",
-                        "inputs": {
-                          "VALUE-0": {
-                            "block": {
-                              "type": "Number",
-                              "id": "QI$*Kr=#GqmqtN92Ra~I",
-                              "fields": {
-                                "NUM": 0
-                              }
-                            }
-                          }
+                        "type": "subroutineArgumentBlock",
+                        "id": "d6@{sI|Xq]Ntmq.]EAPS",
+                        "fields": {
+                          "ARGUMENT_INDEX": "0"
                         }
                       }
                     },
