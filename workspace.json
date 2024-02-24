@@ -1690,6 +1690,65 @@
                                                                     }
                                                                   }
                                                                 }
+                                                              },
+                                                              "next": {
+                                                                "block": {
+                                                                  "type": "subroutineInstanceBlock",
+                                                                  "id": "*I,+cvyX[Yb;^)n_Kl8w",
+                                                                  "extraState": {
+                                                                    "subroutineName": "nextMcom",
+                                                                    "parameters": [
+                                                                      {
+                                                                        "types": "TeamId",
+                                                                        "name": "team"
+                                                                      }
+                                                                    ]
+                                                                  },
+                                                                  "fields": {
+                                                                    "SUBROUTINE_NAME": "nextMcom"
+                                                                  },
+                                                                  "inputs": {
+                                                                    "PARAM-0": {
+                                                                      "block": {
+                                                                        "type": "GetVariable",
+                                                                        "id": "j_op=(;]4VD6iP7NDET:",
+                                                                        "inputs": {
+                                                                          "VALUE-0": {
+                                                                            "block": {
+                                                                              "type": "variableReferenceBlock",
+                                                                              "id": "i4Y,)3QR;mg!5CBU;Wdj",
+                                                                              "extraState": {
+                                                                                "isObjectVar": true
+                                                                              },
+                                                                              "fields": {
+                                                                                "OBJECTTYPE": "TeamId",
+                                                                                "VAR": {
+                                                                                  "id": "MlhdKeUVN#{^;#pHJRr!"
+                                                                                }
+                                                                              },
+                                                                              "inputs": {
+                                                                                "OBJECT": {
+                                                                                  "block": {
+                                                                                    "type": "GetTeamId",
+                                                                                    "id": "d5KK|NX0[RdgnK]/Zl!V",
+                                                                                    "inputs": {
+                                                                                      "VALUE-0": {
+                                                                                        "block": {
+                                                                                          "type": "EventPlayer",
+                                                                                          "id": "W07JInKL1~LB62M*T$5Z"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
                                                               }
                                                             }
                                                           }
@@ -2352,7 +2411,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 11171,
+        "y": 11246,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -2651,7 +2710,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 14634,
+        "y": 14709,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -2876,7 +2935,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 10889,
+        "y": 10964,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -2951,7 +3010,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 9530,
+        "y": 9605,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -3224,7 +3283,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 10232,
+        "y": 10307,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -3844,7 +3903,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 8100,
+        "y": 8175,
         "extraState": {
           "subroutineName": "addMcom",
           "parameters": [
@@ -4331,7 +4390,7 @@
         "type": "subroutineBlock",
         "id": "@bNE:npsQk;n*pQX^5Pg",
         "x": 0,
-        "y": 8741,
+        "y": 8816,
         "extraState": {
           "subroutineName": "updateCurrentMcom",
           "parameters": [
@@ -4621,7 +4680,7 @@
         "type": "subroutineBlock",
         "id": "@K]PSsiqD:*G,{iJ.IYY",
         "x": 0,
-        "y": 11846,
+        "y": 11921,
         "extraState": {
           "subroutineName": "displayMessages",
           "parameters": [
@@ -5201,7 +5260,7 @@
         "type": "subroutineBlock",
         "id": "s9{IbuJ8rr0^mLK]e^%o",
         "x": 0,
-        "y": 12681,
+        "y": 12756,
         "extraState": {
           "subroutineName": "hackerActions",
           "parameters": [
@@ -5451,7 +5510,7 @@
         "type": "subroutineBlock",
         "id": "NyyMZoic50u)]pC5H$x2",
         "x": 0,
-        "y": 7716,
+        "y": 7791,
         "extraState": {
           "subroutineName": "initPlayerVariables",
           "parameters": [
@@ -5565,7 +5624,7 @@
         "type": "subroutineBlock",
         "id": "qa*ZXQ`,xazY;LCF:(wn",
         "x": 0,
-        "y": 5447,
+        "y": 5522,
         "extraState": {
           "subroutineName": "internalInitialization",
           "parameters": []
@@ -6955,7 +7014,7 @@
         "type": "subroutineBlock",
         "id": "1,48NRX2SVX9@8N;OgOf",
         "x": 0,
-        "y": 13502,
+        "y": 13577,
         "extraState": {
           "subroutineName": "initIcons",
           "parameters": []
@@ -7148,7 +7207,7 @@
         "type": "subroutineBlock",
         "id": ".G!BpQTlin4/()H%z+2_",
         "x": 0,
-        "y": 13054,
+        "y": 13129,
         "extraState": {
           "subroutineName": "updateHackerPosition",
           "parameters": [
@@ -7526,7 +7585,7 @@
         "type": "subroutineBlock",
         "id": "oiKl1nj_sI/?:N8,]U_L",
         "x": 0,
-        "y": 9106,
+        "y": 9181,
         "extraState": {
           "subroutineName": "nextMcom",
           "parameters": [
@@ -7803,7 +7862,7 @@
         "type": "subroutineBlock",
         "id": "m-#B9fB{+9b`-s{gN%Mq",
         "x": 0,
-        "y": 13835,
+        "y": 13910,
         "extraState": {
           "subroutineName": "updateIcon",
           "parameters": [
@@ -8192,7 +8251,7 @@
         "type": "subroutineBlock",
         "id": "V*r/%6u4rGN|nyU6VB17",
         "x": 0,
-        "y": 5114,
+        "y": 5189,
         "extraState": {
           "subroutineName": "resetHacker",
           "parameters": [
