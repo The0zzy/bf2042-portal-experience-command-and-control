@@ -2452,7 +2452,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 11607,
+        "y": 11725,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -2751,7 +2751,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 15078,
+        "y": 15196,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -2976,7 +2976,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 11325,
+        "y": 11443,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -3581,32 +3581,32 @@
                               "PARAM-2": {
                                 "block": {
                                   "type": "CreateVector",
-                                  "id": "jobqZ-+!5ZGwSP-]Ight",
+                                  "id": "mul^u(w6#;yrZ$x-hm9-",
                                   "inputs": {
                                     "VALUE-0": {
                                       "block": {
                                         "type": "Number",
-                                        "id": "pRvbl;D%GY2K8[WXYh1B",
+                                        "id": "7(rUb/[pQBp+IWqcccwM",
                                         "fields": {
-                                          "NUM": 42.39
+                                          "NUM": 186.71
                                         }
                                       }
                                     },
                                     "VALUE-1": {
                                       "block": {
                                         "type": "Number",
-                                        "id": "99Uc%sb5!fgnDsKj:kq8",
+                                        "id": "q,jo-Uh+X+,oO|ett`LA",
                                         "fields": {
-                                          "NUM": 463.64
+                                          "NUM": 530.5
                                         }
                                       }
                                     },
                                     "VALUE-2": {
                                       "block": {
                                         "type": "Number",
-                                        "id": "B)JG.:8LNI#b),RkBc/a",
+                                        "id": "LVRi`]~2tLZ-c6vwaB}:",
                                         "fields": {
-                                          "NUM": -249.2
+                                          "NUM": -178.5
                                         }
                                       }
                                     }
@@ -3643,7 +3643,7 @@
                             "next": {
                               "block": {
                                 "type": "subroutineInstanceBlock",
-                                "id": "r`Yh$,cBh3:i#5rxW7B5",
+                                "id": "KRcK*PYtMs9W,*Dq~.FW",
                                 "extraState": {
                                   "subroutineName": "addMcom",
                                   "parameters": [
@@ -3676,15 +3676,15 @@
                                   "PARAM-0": {
                                     "block": {
                                       "type": "GetCapturePoint",
-                                      "id": "5U|i$mBc0k(=8Sg^@0?s",
+                                      "id": "G}LBPVcrW)97c%/B+J}0",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
                                             "type": "MCOMsItem",
-                                            "id": "0ZC^./j16~Ov/DT8:5Bn",
+                                            "id": "iLU!;27;5z+S@VOWbb:s",
                                             "fields": {
                                               "VALUE-0": "MCOMs",
-                                              "VALUE-1": "B"
+                                              "VALUE-1": "A"
                                             }
                                           }
                                         }
@@ -3694,14 +3694,14 @@
                                   "PARAM-1": {
                                     "block": {
                                       "type": "GetTeamId",
-                                      "id": "O^LjK/68K82_aGG?m-}.",
+                                      "id": "v6hTFb:9-^{=MnADAd3`",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
                                             "type": "Number",
-                                            "id": "w5.l=l2F4xm1O81)vB#S",
+                                            "id": "v]H/@*hNU^aW,:jk|w:T",
                                             "fields": {
-                                              "NUM": 2
+                                              "NUM": 1
                                             }
                                           }
                                         }
@@ -3711,32 +3711,32 @@
                                   "PARAM-2": {
                                     "block": {
                                       "type": "CreateVector",
-                                      "id": "|q]yz`_BeiS7.`-=+M4}",
+                                      "id": "^-xe6}YPiqri2;]=(R{!",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
                                             "type": "Number",
-                                            "id": "Lhei_W~;r)u9+_hRSa,`",
+                                            "id": "F(9yM)d#qMy`/OHZ}Wcd",
                                             "fields": {
-                                              "NUM": -21.846
+                                              "NUM": 170.876
                                             }
                                           }
                                         },
                                         "VALUE-1": {
                                           "block": {
                                             "type": "Number",
-                                            "id": "P[*qfzIgM1k3JhTF=6S)",
+                                            "id": "*g0;YIat*PvC{181p2V!",
                                             "fields": {
-                                              "NUM": 466.2
+                                              "NUM": 570.7
                                             }
                                           }
                                         },
                                         "VALUE-2": {
                                           "block": {
                                             "type": "Number",
-                                            "id": ",u(eM!dtoba(IrW+a+W)",
+                                            "id": "OP~evB]9ws=I*7Y%-X[k",
                                             "fields": {
-                                              "NUM": -221.55
+                                              "NUM": -47
                                             }
                                           }
                                         }
@@ -3746,23 +3746,23 @@
                                   "PARAM-3": {
                                     "block": {
                                       "type": "Number",
-                                      "id": "[a2k--@,hw$T.i}ERN{H",
+                                      "id": "v[cJMLE^F]!Sqe:=Nx0`",
                                       "fields": {
-                                        "NUM": 1.942
+                                        "NUM": 0
                                       }
                                     }
                                   },
                                   "PARAM-4": {
                                     "block": {
                                       "type": "GetTeamId",
-                                      "id": "cJ[d9lC.1}#_=H?jb?W%",
+                                      "id": "e9g=(L{Bgdl?28*yc{Lv",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
                                             "type": "Number",
-                                            "id": "*lhmRnc+Qlu#(I%K~eI]",
+                                            "id": "rrt.{(33?ry2p~#EiYZ6",
                                             "fields": {
-                                              "NUM": 2
+                                              "NUM": 1
                                             }
                                           }
                                         }
@@ -3773,7 +3773,7 @@
                                 "next": {
                                   "block": {
                                     "type": "subroutineInstanceBlock",
-                                    "id": "EH:%%PzYsbwwm}cAdL=P",
+                                    "id": "r`Yh$,cBh3:i#5rxW7B5",
                                     "extraState": {
                                       "subroutineName": "addMcom",
                                       "parameters": [
@@ -3806,12 +3806,12 @@
                                       "PARAM-0": {
                                         "block": {
                                           "type": "GetCapturePoint",
-                                          "id": "!e.[`1:[}dGVWaXT_AY3",
+                                          "id": "5U|i$mBc0k(=8Sg^@0?s",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
                                                 "type": "MCOMsItem",
-                                                "id": "[jZDLMF}TPTcQH~eCO5t",
+                                                "id": "0ZC^./j16~Ov/DT8:5Bn",
                                                 "fields": {
                                                   "VALUE-0": "MCOMs",
                                                   "VALUE-1": "B"
@@ -3824,12 +3824,12 @@
                                       "PARAM-1": {
                                         "block": {
                                           "type": "GetTeamId",
-                                          "id": "_8_PG2,loVM*?dT[r;K^",
+                                          "id": "O^LjK/68K82_aGG?m-}.",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
                                                 "type": "Number",
-                                                "id": "+N#Ly[tJ(GH:m~M8B4SG",
+                                                "id": "w5.l=l2F4xm1O81)vB#S",
                                                 "fields": {
                                                   "NUM": 2
                                                 }
@@ -3841,32 +3841,32 @@
                                       "PARAM-2": {
                                         "block": {
                                           "type": "CreateVector",
-                                          "id": "R_%)TvK;F1vpGpV9t;m@",
+                                          "id": "|q]yz`_BeiS7.`-=+M4}",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
                                                 "type": "Number",
-                                                "id": "VUBSylP4(@MoD:WbP0Dq",
+                                                "id": "Lhei_W~;r)u9+_hRSa,`",
                                                 "fields": {
-                                                  "NUM": -114.8
+                                                  "NUM": -21.846
                                                 }
                                               }
                                             },
                                             "VALUE-1": {
                                               "block": {
                                                 "type": "Number",
-                                                "id": ")_wDg6stE8%PNJIFz6C1",
+                                                "id": "P[*qfzIgM1k3JhTF=6S)",
                                                 "fields": {
-                                                  "NUM": 448.3
+                                                  "NUM": 466.2
                                                 }
                                               }
                                             },
                                             "VALUE-2": {
                                               "block": {
                                                 "type": "Number",
-                                                "id": "ewdh!Z:no:9`(/TPV9e:",
+                                                "id": ",u(eM!dtoba(IrW+a+W)",
                                                 "fields": {
-                                                  "NUM": -96.27
+                                                  "NUM": -221.55
                                                 }
                                               }
                                             }
@@ -3876,21 +3876,21 @@
                                       "PARAM-3": {
                                         "block": {
                                           "type": "Number",
-                                          "id": "MZ{+o~2t5vt(!QscMjk[",
+                                          "id": "[a2k--@,hw$T.i}ERN{H",
                                           "fields": {
-                                            "NUM": 5.714
+                                            "NUM": 1.942
                                           }
                                         }
                                       },
                                       "PARAM-4": {
                                         "block": {
                                           "type": "GetTeamId",
-                                          "id": "TM!15o-5X3xC8gSx6:Qq",
+                                          "id": "cJ[d9lC.1}#_=H?jb?W%",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
                                                 "type": "Number",
-                                                "id": "~djYoL:Bi[Z~r[(B}6+:",
+                                                "id": "*lhmRnc+Qlu#(I%K~eI]",
                                                 "fields": {
                                                   "NUM": 2
                                                 }
@@ -3902,20 +3902,284 @@
                                     },
                                     "next": {
                                       "block": {
-                                        "type": "SendErrorReport",
-                                        "id": "Tg~`@%hAbzBYuFvmD*y^",
+                                        "type": "subroutineInstanceBlock",
+                                        "id": "EH:%%PzYsbwwm}cAdL=P",
+                                        "extraState": {
+                                          "subroutineName": "addMcom",
+                                          "parameters": [
+                                            {
+                                              "types": "MCOM",
+                                              "name": "mcom"
+                                            },
+                                            {
+                                              "types": "TeamId",
+                                              "name": "owner"
+                                            },
+                                            {
+                                              "types": "Vector",
+                                              "name": "position"
+                                            },
+                                            {
+                                              "types": "Number",
+                                              "name": "yaw"
+                                            },
+                                            {
+                                              "types": "TeamId",
+                                              "name": "teamId"
+                                            }
+                                          ]
+                                        },
+                                        "fields": {
+                                          "SUBROUTINE_NAME": "addMcom"
+                                        },
                                         "inputs": {
-                                          "VALUE-0": {
+                                          "PARAM-0": {
                                             "block": {
-                                              "type": "Message",
-                                              "id": "p0[Lm.?g(^v:dl9=zYE#",
+                                              "type": "GetCapturePoint",
+                                              "id": "!e.[`1:[}dGVWaXT_AY3",
                                               "inputs": {
                                                 "VALUE-0": {
                                                   "block": {
-                                                    "type": "Text",
-                                                    "id": "$6|*3?WP!$!Z=;D1Mc#Q",
+                                                    "type": "MCOMsItem",
+                                                    "id": "[jZDLMF}TPTcQH~eCO5t",
                                                     "fields": {
-                                                      "TEXT": "Map initialized!"
+                                                      "VALUE-0": "MCOMs",
+                                                      "VALUE-1": "B"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "PARAM-1": {
+                                            "block": {
+                                              "type": "GetTeamId",
+                                              "id": "_8_PG2,loVM*?dT[r;K^",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "+N#Ly[tJ(GH:m~M8B4SG",
+                                                    "fields": {
+                                                      "NUM": 2
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "PARAM-2": {
+                                            "block": {
+                                              "type": "CreateVector",
+                                              "id": "70D6tk(aY{UTRVH:#xQE",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "t,olk$!PUijhLjo2avc0",
+                                                    "fields": {
+                                                      "NUM": -53.5
+                                                    }
+                                                  }
+                                                },
+                                                "VALUE-1": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "$t.4PSs4b*h$`eAChHF)",
+                                                    "fields": {
+                                                      "NUM": 466.3
+                                                    }
+                                                  }
+                                                },
+                                                "VALUE-2": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "luGU4^9Sc9alY2lx7Ip8",
+                                                    "fields": {
+                                                      "NUM": -207.1
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "PARAM-3": {
+                                            "block": {
+                                              "type": "Number",
+                                              "id": "MZ{+o~2t5vt(!QscMjk[",
+                                              "fields": {
+                                                "NUM": 5.714
+                                              }
+                                            }
+                                          },
+                                          "PARAM-4": {
+                                            "block": {
+                                              "type": "GetTeamId",
+                                              "id": "TM!15o-5X3xC8gSx6:Qq",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "~djYoL:Bi[Z~r[(B}6+:",
+                                                    "fields": {
+                                                      "NUM": 2
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "subroutineInstanceBlock",
+                                            "id": "@7hoJI%rduunRP]9)2{$",
+                                            "extraState": {
+                                              "subroutineName": "addMcom",
+                                              "parameters": [
+                                                {
+                                                  "types": "MCOM",
+                                                  "name": "mcom"
+                                                },
+                                                {
+                                                  "types": "TeamId",
+                                                  "name": "owner"
+                                                },
+                                                {
+                                                  "types": "Vector",
+                                                  "name": "position"
+                                                },
+                                                {
+                                                  "types": "Number",
+                                                  "name": "yaw"
+                                                },
+                                                {
+                                                  "types": "TeamId",
+                                                  "name": "teamId"
+                                                }
+                                              ]
+                                            },
+                                            "fields": {
+                                              "SUBROUTINE_NAME": "addMcom"
+                                            },
+                                            "inputs": {
+                                              "PARAM-0": {
+                                                "block": {
+                                                  "type": "GetCapturePoint",
+                                                  "id": "}]ax]IO?+T1x-)=wx?X1",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "MCOMsItem",
+                                                        "id": "[|pso1eq;C@.srs.MJ_0",
+                                                        "fields": {
+                                                          "VALUE-0": "MCOMs",
+                                                          "VALUE-1": "B"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "PARAM-1": {
+                                                "block": {
+                                                  "type": "GetTeamId",
+                                                  "id": "9:{1`;QpAA-i5|BHW)n=",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "ISZf/a7AkC2HsES8cF)z",
+                                                        "fields": {
+                                                          "NUM": 2
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "PARAM-2": {
+                                                "block": {
+                                                  "type": "CreateVector",
+                                                  "id": "{sE!)v6+XKa$.Y1TeEU3",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "VwR7-Ux#[1rHz,z[Al?L",
+                                                        "fields": {
+                                                          "NUM": -124.5
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "vV9yQ1`aE|,AK^+uN!j0",
+                                                        "fields": {
+                                                          "NUM": 451
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-2": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "8v{Ar~qwHztt0Xgz4;B5",
+                                                        "fields": {
+                                                          "NUM": -73.2
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "PARAM-3": {
+                                                "block": {
+                                                  "type": "Number",
+                                                  "id": "iu@k,%iLO^VtO-pz1d$G",
+                                                  "fields": {
+                                                    "NUM": 0
+                                                  }
+                                                }
+                                              },
+                                              "PARAM-4": {
+                                                "block": {
+                                                  "type": "GetTeamId",
+                                                  "id": "`]Kx`H-+_Ql$qJmo[7n$",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "m1k:S5zPfz.#Dyev6/QG",
+                                                        "fields": {
+                                                          "NUM": 2
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "SendErrorReport",
+                                                "id": "Tg~`@%hAbzBYuFvmD*y^",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "Message",
+                                                      "id": "p0[Lm.?g(^v:dl9=zYE#",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "Text",
+                                                            "id": "$6|*3?WP!$!Z=;D1Mc#Q",
+                                                            "fields": {
+                                                              "TEXT": "Map initialized!"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
                                                     }
                                                   }
                                                 }
@@ -4881,7 +5145,7 @@
         "type": "subroutineBlock",
         "id": "@K]PSsiqD:*G,{iJ.IYY",
         "x": 0,
-        "y": 12282,
+        "y": 12400,
         "extraState": {
           "subroutineName": "displayMessages",
           "parameters": [
@@ -5478,7 +5742,7 @@
         "type": "subroutineBlock",
         "id": "s9{IbuJ8rr0^mLK]e^%o",
         "x": 0,
-        "y": 13125,
+        "y": 13243,
         "extraState": {
           "subroutineName": "hackerActions",
           "parameters": [
@@ -7241,7 +7505,7 @@
         "type": "subroutineBlock",
         "id": "1,48NRX2SVX9@8N;OgOf",
         "x": 0,
-        "y": 13946,
+        "y": 14064,
         "extraState": {
           "subroutineName": "initIcons",
           "parameters": []
@@ -7434,7 +7698,7 @@
         "type": "subroutineBlock",
         "id": ".G!BpQTlin4/()H%z+2_",
         "x": 0,
-        "y": 13498,
+        "y": 13616,
         "extraState": {
           "subroutineName": "updateHackerPosition",
           "parameters": [
@@ -8064,7 +8328,7 @@
         "type": "subroutineBlock",
         "id": "m-#B9fB{+9b`-s{gN%Mq",
         "x": 0,
-        "y": 14279,
+        "y": 14397,
         "extraState": {
           "subroutineName": "updateIcon",
           "parameters": [
