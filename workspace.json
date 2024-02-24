@@ -2252,40 +2252,59 @@
                                                                                     "inputs": {
                                                                                       "PARAM-0": {
                                                                                         "block": {
-                                                                                          "type": "GetVariable",
-                                                                                          "id": "ltij.lOj8n]/0KIoH_z}",
+                                                                                          "type": "GetCurrentOwnerTeamID",
+                                                                                          "id": "7auB0dF2_d%@ztB]Q8FS",
                                                                                           "inputs": {
                                                                                             "VALUE-0": {
                                                                                               "block": {
-                                                                                                "type": "variableReferenceBlock",
-                                                                                                "id": "[rA!iz,uoqDYJS*CtXUz",
-                                                                                                "extraState": {
-                                                                                                  "isObjectVar": true
-                                                                                                },
+                                                                                                "type": "EventMCOM",
+                                                                                                "id": "P6i=@DxbuPucT]x_W{1%"
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      },
+                                                                                      "PARAM-1": {
+                                                                                        "block": {
+                                                                                          "type": "CreateVector",
+                                                                                          "id": "i]i[+!xlSh|{z,I`c$)W",
+                                                                                          "inputs": {
+                                                                                            "VALUE-0": {
+                                                                                              "block": {
+                                                                                                "type": "Number",
+                                                                                                "id": "%k?in4$D{g6AR4v^+cTE",
                                                                                                 "fields": {
-                                                                                                  "OBJECTTYPE": "TeamId",
-                                                                                                  "VAR": {
-                                                                                                    "id": "YYW2Uh!ZpRH6:d:3Hxm/"
-                                                                                                  }
-                                                                                                },
-                                                                                                "inputs": {
-                                                                                                  "OBJECT": {
-                                                                                                    "block": {
-                                                                                                      "type": "GetCurrentOwnerTeamID",
-                                                                                                      "id": "7auB0dF2_d%@ztB]Q8FS",
-                                                                                                      "inputs": {
-                                                                                                        "VALUE-0": {
-                                                                                                          "block": {
-                                                                                                            "type": "EventMCOM",
-                                                                                                            "id": "P6i=@DxbuPucT]x_W{1%"
-                                                                                                          }
-                                                                                                        }
-                                                                                                      }
-                                                                                                    }
-                                                                                                  }
+                                                                                                  "NUM": 0
+                                                                                                }
+                                                                                              }
+                                                                                            },
+                                                                                            "VALUE-1": {
+                                                                                              "block": {
+                                                                                                "type": "Number",
+                                                                                                "id": "JvZm3VkZJfJko8H_Fx~O",
+                                                                                                "fields": {
+                                                                                                  "NUM": 0
+                                                                                                }
+                                                                                              }
+                                                                                            },
+                                                                                            "VALUE-2": {
+                                                                                              "block": {
+                                                                                                "type": "Number",
+                                                                                                "id": ".Uf*=XsW{f!2;EwwpFfD",
+                                                                                                "fields": {
+                                                                                                  "NUM": 0
                                                                                                 }
                                                                                               }
                                                                                             }
+                                                                                          }
+                                                                                        }
+                                                                                      },
+                                                                                      "PARAM-2": {
+                                                                                        "block": {
+                                                                                          "type": "Boolean",
+                                                                                          "id": "{dU)FevdIn.7`ISaknFT",
+                                                                                          "fields": {
+                                                                                            "BOOL": "FALSE"
                                                                                           }
                                                                                         }
                                                                                       }
@@ -2333,7 +2352,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 11371,
+        "y": 11171,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -2632,7 +2651,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 14834,
+        "y": 14634,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -2857,7 +2876,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 11089,
+        "y": 10889,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -2932,7 +2951,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 9730,
+        "y": 9530,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -3205,7 +3224,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 10432,
+        "y": 10232,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -3825,7 +3844,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 8300,
+        "y": 8100,
         "extraState": {
           "subroutineName": "addMcom",
           "parameters": [
@@ -4312,7 +4331,7 @@
         "type": "subroutineBlock",
         "id": "@bNE:npsQk;n*pQX^5Pg",
         "x": 0,
-        "y": 8941,
+        "y": 8741,
         "extraState": {
           "subroutineName": "updateCurrentMcom",
           "parameters": [
@@ -4602,7 +4621,7 @@
         "type": "subroutineBlock",
         "id": "@K]PSsiqD:*G,{iJ.IYY",
         "x": 0,
-        "y": 12046,
+        "y": 11846,
         "extraState": {
           "subroutineName": "displayMessages",
           "parameters": [
@@ -5182,7 +5201,7 @@
         "type": "subroutineBlock",
         "id": "s9{IbuJ8rr0^mLK]e^%o",
         "x": 0,
-        "y": 12881,
+        "y": 12681,
         "extraState": {
           "subroutineName": "hackerActions",
           "parameters": [
@@ -5432,7 +5451,7 @@
         "type": "subroutineBlock",
         "id": "NyyMZoic50u)]pC5H$x2",
         "x": 0,
-        "y": 7916,
+        "y": 7716,
         "extraState": {
           "subroutineName": "initPlayerVariables",
           "parameters": [
@@ -5546,7 +5565,7 @@
         "type": "subroutineBlock",
         "id": "qa*ZXQ`,xazY;LCF:(wn",
         "x": 0,
-        "y": 5647,
+        "y": 5447,
         "extraState": {
           "subroutineName": "internalInitialization",
           "parameters": []
@@ -6936,7 +6955,7 @@
         "type": "subroutineBlock",
         "id": "1,48NRX2SVX9@8N;OgOf",
         "x": 0,
-        "y": 13702,
+        "y": 13502,
         "extraState": {
           "subroutineName": "initIcons",
           "parameters": []
@@ -7129,7 +7148,7 @@
         "type": "subroutineBlock",
         "id": ".G!BpQTlin4/()H%z+2_",
         "x": 0,
-        "y": 13254,
+        "y": 13054,
         "extraState": {
           "subroutineName": "updateHackerPosition",
           "parameters": [
@@ -7507,7 +7526,7 @@
         "type": "subroutineBlock",
         "id": "oiKl1nj_sI/?:N8,]U_L",
         "x": 0,
-        "y": 9306,
+        "y": 9106,
         "extraState": {
           "subroutineName": "nextMcom",
           "parameters": [
@@ -7784,7 +7803,7 @@
         "type": "subroutineBlock",
         "id": "m-#B9fB{+9b`-s{gN%Mq",
         "x": 0,
-        "y": 14035,
+        "y": 13835,
         "extraState": {
           "subroutineName": "updateIcon",
           "parameters": [
@@ -8173,7 +8192,7 @@
         "type": "subroutineBlock",
         "id": "V*r/%6u4rGN|nyU6VB17",
         "x": 0,
-        "y": 5314,
+        "y": 5114,
         "extraState": {
           "subroutineName": "resetHacker",
           "parameters": [
@@ -8309,29 +8328,6 @@
                   }
                 }
               }
-            }
-          }
-        }
-      },
-      {
-        "type": "Boolean",
-        "id": "xI1^Vw!ZxOKelwyI`_4L",
-        "x": 0,
-        "y": 5130,
-        "fields": {
-          "BOOL": "FALSE"
-        }
-      },
-      {
-        "type": "GetCurrentOwnerTeamID",
-        "id": ";76bF`1?mX3I}ZP;lqQF",
-        "x": 0,
-        "y": 5218,
-        "inputs": {
-          "VALUE-0": {
-            "block": {
-              "type": "EventMCOM",
-              "id": "m)N%EyLGTmyBVQL0wJf3"
             }
           }
         }
