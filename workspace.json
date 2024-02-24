@@ -2512,7 +2512,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 11792,
+        "y": 11800,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -2829,7 +2829,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 15490,
+        "y": 15362,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -3072,7 +3072,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 11510,
+        "y": 11518,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -3147,7 +3147,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 10033,
+        "y": 10041,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -3420,7 +3420,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 10735,
+        "y": 10743,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -4304,7 +4304,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 8528,
+        "y": 8536,
         "extraState": {
           "subroutineName": "addMcom",
           "parameters": [
@@ -4791,7 +4791,7 @@
         "type": "subroutineBlock",
         "id": "@bNE:npsQk;n*pQX^5Pg",
         "x": 0,
-        "y": 9169,
+        "y": 9177,
         "extraState": {
           "subroutineName": "updateCurrentMcom",
           "parameters": [
@@ -5241,7 +5241,7 @@
         "type": "subroutineBlock",
         "id": "@K]PSsiqD:*G,{iJ.IYY",
         "x": 0,
-        "y": 12603,
+        "y": 12491,
         "extraState": {
           "subroutineName": "displayMessages",
           "parameters": [
@@ -5773,7 +5773,7 @@
                                         "type": "Text",
                                         "id": "=Sqw(6+Y2qk/]8kJy{o}",
                                         "fields": {
-                                          "TEXT": "The hacker depleted {} tickets - Kill them!"
+                                          "TEXT": "We depleted {} enemy tickets with this hack!"
                                         }
                                       }
                                     },
@@ -5817,35 +5817,10 @@
                                                           "inputs": {
                                                             "OBJECT": {
                                                               "block": {
-                                                                "type": "GetVariable",
-                                                                "id": "8H[o5_Sd!WM=hHp/M(`e",
-                                                                "inputs": {
-                                                                  "VALUE-0": {
-                                                                    "block": {
-                                                                      "type": "variableReferenceBlock",
-                                                                      "id": "MwO!=WcJjvI;!zPDL@fy",
-                                                                      "extraState": {
-                                                                        "isObjectVar": true
-                                                                      },
-                                                                      "fields": {
-                                                                        "OBJECTTYPE": "TeamId",
-                                                                        "VAR": {
-                                                                          "id": "MlhdKeUVN#{^;#pHJRr!"
-                                                                        }
-                                                                      },
-                                                                      "inputs": {
-                                                                        "OBJECT": {
-                                                                          "block": {
-                                                                            "type": "subroutineArgumentBlock",
-                                                                            "id": "k(DU2XK*jpL#qzv4Jxd3",
-                                                                            "fields": {
-                                                                              "ARGUMENT_INDEX": "1"
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
+                                                                "type": "subroutineArgumentBlock",
+                                                                "id": "k(DU2XK*jpL#qzv4Jxd3",
+                                                                "fields": {
+                                                                  "ARGUMENT_INDEX": "0"
                                                                 }
                                                               }
                                                             }
@@ -5961,7 +5936,7 @@
         "type": "subroutineBlock",
         "id": "s9{IbuJ8rr0^mLK]e^%o",
         "x": 0,
-        "y": 13537,
+        "y": 13409,
         "extraState": {
           "subroutineName": "hackerActions",
           "parameters": [
@@ -6211,7 +6186,7 @@
         "type": "subroutineBlock",
         "id": "NyyMZoic50u)]pC5H$x2",
         "x": 0,
-        "y": 8144,
+        "y": 8152,
         "extraState": {
           "subroutineName": "initPlayerVariables",
           "parameters": [
@@ -6334,7 +6309,7 @@
         "type": "subroutineBlock",
         "id": "qa*ZXQ`,xazY;LCF:(wn",
         "x": 0,
-        "y": 5875,
+        "y": 5883,
         "extraState": {
           "subroutineName": "internalInitialization",
           "parameters": []
@@ -7724,7 +7699,7 @@
         "type": "subroutineBlock",
         "id": "1,48NRX2SVX9@8N;OgOf",
         "x": 0,
-        "y": 14358,
+        "y": 14230,
         "extraState": {
           "subroutineName": "initIcons",
           "parameters": []
@@ -7917,7 +7892,7 @@
         "type": "subroutineBlock",
         "id": ".G!BpQTlin4/()H%z+2_",
         "x": 0,
-        "y": 13910,
+        "y": 13782,
         "extraState": {
           "subroutineName": "updateHackerPosition",
           "parameters": [
@@ -8295,7 +8270,7 @@
         "type": "subroutineBlock",
         "id": "oiKl1nj_sI/?:N8,]U_L",
         "x": 0,
-        "y": 9609,
+        "y": 9617,
         "extraState": {
           "subroutineName": "nextMcom",
           "parameters": [
@@ -8547,7 +8522,7 @@
         "type": "subroutineBlock",
         "id": "m-#B9fB{+9b`-s{gN%Mq",
         "x": 0,
-        "y": 14691,
+        "y": 14563,
         "extraState": {
           "subroutineName": "updateIcon",
           "parameters": [
@@ -8936,7 +8911,7 @@
         "type": "subroutineBlock",
         "id": "V*r/%6u4rGN|nyU6VB17",
         "x": 0,
-        "y": 5467,
+        "y": 5475,
         "extraState": {
           "subroutineName": "resetHacker",
           "parameters": [
@@ -9139,65 +9114,6 @@
                     }
                   }
                 }
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "NotEqualTo",
-        "id": "h;f2k2el!4Qr/YY=%C]~",
-        "x": 0,
-        "y": 12483,
-        "inputs": {
-          "VALUE-0": {
-            "block": {
-              "type": "GetVariable",
-              "id": "aRzE=Vl,|U^`!kc,oyG,",
-              "inputs": {
-                "VALUE-0": {
-                  "block": {
-                    "type": "variableReferenceBlock",
-                    "id": "3w2)llz)vBl;)0!}*nbb",
-                    "extraState": {
-                      "isObjectVar": true
-                    },
-                    "fields": {
-                      "OBJECTTYPE": "TeamId",
-                      "VAR": {
-                        "id": "$t:SQ(*BQJsR1^8Bt`S4"
-                      }
-                    },
-                    "inputs": {
-                      "OBJECT": {
-                        "block": {
-                          "type": "GetTeamId",
-                          "id": "TF;7lbr@^`|Rs$)(eF0^",
-                          "inputs": {
-                            "VALUE-0": {
-                              "block": {
-                                "type": "Number",
-                                "id": "6/zfaJ+nKaz82kA/8qI^",
-                                "fields": {
-                                  "NUM": 2
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "VALUE-1": {
-            "block": {
-              "type": "Number",
-              "id": "~n$1Pw{$vDNFXzzPdyjx",
-              "fields": {
-                "NUM": 0
               }
             }
           }
