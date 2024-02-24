@@ -7732,35 +7732,10 @@
                       "inputs": {
                         "PARAM-0": {
                           "block": {
-                            "type": "GetVariable",
-                            "id": "CCnSA[=hXQ]3dsmX]bF9",
-                            "inputs": {
-                              "VALUE-0": {
-                                "block": {
-                                  "type": "variableReferenceBlock",
-                                  "id": "NOR=asDE^mX!(mB+gXRb",
-                                  "extraState": {
-                                    "isObjectVar": true
-                                  },
-                                  "fields": {
-                                    "OBJECTTYPE": "TeamId",
-                                    "VAR": {
-                                      "id": "YYW2Uh!ZpRH6:d:3Hxm/"
-                                    }
-                                  },
-                                  "inputs": {
-                                    "OBJECT": {
-                                      "block": {
-                                        "type": "subroutineArgumentBlock",
-                                        "id": "Oy`XQ?5*MZ,-#c(B~?2,",
-                                        "fields": {
-                                          "ARGUMENT_INDEX": "0"
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
+                            "type": "subroutineArgumentBlock",
+                            "id": "Oy`XQ?5*MZ,-#c(B~?2,",
+                            "fields": {
+                              "ARGUMENT_INDEX": "0"
                             }
                           }
                         },
