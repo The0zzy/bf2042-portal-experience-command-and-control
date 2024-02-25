@@ -4495,152 +4495,20 @@
                                         },
                                         "next": {
                                           "block": {
-                                            "type": "subroutineInstanceBlock",
-                                            "id": "@7hoJI%rduunRP]9)2{$",
-                                            "extraState": {
-                                              "subroutineName": "addMcom",
-                                              "parameters": [
-                                                {
-                                                  "types": "MCOM",
-                                                  "name": "mcom"
-                                                },
-                                                {
-                                                  "types": "TeamId",
-                                                  "name": "owner"
-                                                },
-                                                {
-                                                  "types": "Vector",
-                                                  "name": "position"
-                                                },
-                                                {
-                                                  "types": "Number",
-                                                  "name": "yaw"
-                                                },
-                                                {
-                                                  "types": "TeamId",
-                                                  "name": "teamId"
-                                                }
-                                              ]
-                                            },
-                                            "fields": {
-                                              "SUBROUTINE_NAME": "addMcom"
-                                            },
+                                            "type": "SendErrorReport",
+                                            "id": "Tg~`@%hAbzBYuFvmD*y^",
                                             "inputs": {
-                                              "PARAM-0": {
+                                              "VALUE-0": {
                                                 "block": {
-                                                  "type": "GetCapturePoint",
-                                                  "id": "}]ax]IO?+T1x-)=wx?X1",
+                                                  "type": "Message",
+                                                  "id": "p0[Lm.?g(^v:dl9=zYE#",
                                                   "inputs": {
                                                     "VALUE-0": {
                                                       "block": {
-                                                        "type": "MCOMsItem",
-                                                        "id": "[|pso1eq;C@.srs.MJ_0",
+                                                        "type": "Text",
+                                                        "id": "$6|*3?WP!$!Z=;D1Mc#Q",
                                                         "fields": {
-                                                          "VALUE-0": "MCOMs",
-                                                          "VALUE-1": "B"
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "PARAM-1": {
-                                                "block": {
-                                                  "type": "GetTeamId",
-                                                  "id": "9:{1`;QpAA-i5|BHW)n=",
-                                                  "inputs": {
-                                                    "VALUE-0": {
-                                                      "block": {
-                                                        "type": "Number",
-                                                        "id": "ISZf/a7AkC2HsES8cF)z",
-                                                        "fields": {
-                                                          "NUM": 2
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "PARAM-2": {
-                                                "block": {
-                                                  "type": "CreateVector",
-                                                  "id": "{sE!)v6+XKa$.Y1TeEU3",
-                                                  "inputs": {
-                                                    "VALUE-0": {
-                                                      "block": {
-                                                        "type": "Number",
-                                                        "id": "VwR7-Ux#[1rHz,z[Al?L",
-                                                        "fields": {
-                                                          "NUM": -124.5
-                                                        }
-                                                      }
-                                                    },
-                                                    "VALUE-1": {
-                                                      "block": {
-                                                        "type": "Number",
-                                                        "id": "vV9yQ1`aE|,AK^+uN!j0",
-                                                        "fields": {
-                                                          "NUM": 451
-                                                        }
-                                                      }
-                                                    },
-                                                    "VALUE-2": {
-                                                      "block": {
-                                                        "type": "Number",
-                                                        "id": "8v{Ar~qwHztt0Xgz4;B5",
-                                                        "fields": {
-                                                          "NUM": -73.2
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "PARAM-3": {
-                                                "block": {
-                                                  "type": "Number",
-                                                  "id": "iu@k,%iLO^VtO-pz1d$G",
-                                                  "fields": {
-                                                    "NUM": 0
-                                                  }
-                                                }
-                                              },
-                                              "PARAM-4": {
-                                                "block": {
-                                                  "type": "GetTeamId",
-                                                  "id": "`]Kx`H-+_Ql$qJmo[7n$",
-                                                  "inputs": {
-                                                    "VALUE-0": {
-                                                      "block": {
-                                                        "type": "Number",
-                                                        "id": "m1k:S5zPfz.#Dyev6/QG",
-                                                        "fields": {
-                                                          "NUM": 2
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            "next": {
-                                              "block": {
-                                                "type": "SendErrorReport",
-                                                "id": "Tg~`@%hAbzBYuFvmD*y^",
-                                                "inputs": {
-                                                  "VALUE-0": {
-                                                    "block": {
-                                                      "type": "Message",
-                                                      "id": "p0[Lm.?g(^v:dl9=zYE#",
-                                                      "inputs": {
-                                                        "VALUE-0": {
-                                                          "block": {
-                                                            "type": "Text",
-                                                            "id": "$6|*3?WP!$!Z=;D1Mc#Q",
-                                                            "fields": {
-                                                              "TEXT": "Map initialized!"
-                                                            }
-                                                          }
+                                                          "TEXT": "Map initialized!"
                                                         }
                                                       }
                                                     }
