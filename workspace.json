@@ -20973,10 +20973,35 @@
                           "inputs": {
                             "PARAM-0": {
                               "block": {
-                                "type": "subroutineArgumentBlock",
-                                "id": "7m_I_}:0%WKnsiwCb$0/",
-                                "fields": {
-                                  "ARGUMENT_INDEX": "0"
+                                "type": "GetVariable",
+                                "id": "cc@zeg`UUknW}Pw?YS)N",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "variableReferenceBlock",
+                                      "id": "wq)]3ujv+3IE:Z`t:%YG",
+                                      "extraState": {
+                                        "isObjectVar": true
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "TeamId",
+                                        "VAR": {
+                                          "id": "MlhdKeUVN#{^;#pHJRr!"
+                                        }
+                                      },
+                                      "inputs": {
+                                        "OBJECT": {
+                                          "block": {
+                                            "type": "subroutineArgumentBlock",
+                                            "id": "gc#c%3(Oo@HvKFp6O(8z",
+                                            "fields": {
+                                              "ARGUMENT_INDEX": "0"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
                                 }
                               }
                             },
