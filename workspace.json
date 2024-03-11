@@ -4190,7 +4190,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 20688,
+        "y": 20747,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -4587,7 +4587,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 25907,
+        "y": 25966,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -4830,7 +4830,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 20406,
+        "y": 20465,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -4905,7 +4905,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 19704,
+        "y": 19763,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -5178,7 +5178,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 11613,
+        "y": 11672,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -15258,7 +15258,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 17988,
+        "y": 18047,
         "extraState": {
           "subroutineName": "addMcom",
           "parameters": [
@@ -15741,7 +15741,7 @@
         "type": "subroutineBlock",
         "id": "@bNE:npsQk;n*pQX^5Pg",
         "x": 0,
-        "y": 19264,
+        "y": 19323,
         "extraState": {
           "subroutineName": "updateCurrentMcom",
           "parameters": [
@@ -16191,7 +16191,7 @@
         "type": "subroutineBlock",
         "id": "@K]PSsiqD:*G,{iJ.IYY",
         "x": 0,
-        "y": 22646,
+        "y": 22705,
         "extraState": {
           "subroutineName": "displayMessages",
           "parameters": [
@@ -17230,7 +17230,7 @@
         "type": "subroutineBlock",
         "id": "s9{IbuJ8rr0^mLK]e^%o",
         "x": 0,
-        "y": 23954,
+        "y": 24013,
         "extraState": {
           "subroutineName": "hackerActions",
           "parameters": [
@@ -17480,7 +17480,7 @@
         "type": "subroutineBlock",
         "id": "NyyMZoic50u)]pC5H$x2",
         "x": 0,
-        "y": 11170,
+        "y": 11229,
         "extraState": {
           "subroutineName": "initPlayerVariables",
           "parameters": [
@@ -17646,7 +17646,7 @@
         "type": "subroutineBlock",
         "id": "qa*ZXQ`,xazY;LCF:(wn",
         "x": 0,
-        "y": 8767,
+        "y": 8826,
         "extraState": {
           "subroutineName": "internalInitialization",
           "parameters": []
@@ -19138,7 +19138,7 @@
         "type": "subroutineBlock",
         "id": "1,48NRX2SVX9@8N;OgOf",
         "x": 0,
-        "y": 24775,
+        "y": 24834,
         "extraState": {
           "subroutineName": "initIcons",
           "parameters": []
@@ -19331,7 +19331,7 @@
         "type": "subroutineBlock",
         "id": ".G!BpQTlin4/()H%z+2_",
         "x": 0,
-        "y": 24327,
+        "y": 24386,
         "extraState": {
           "subroutineName": "updateHackerPosition",
           "parameters": [
@@ -19709,7 +19709,7 @@
         "type": "subroutineBlock",
         "id": "oiKl1nj_sI/?:N8,]U_L",
         "x": 0,
-        "y": 18629,
+        "y": 18688,
         "extraState": {
           "subroutineName": "nextMcom",
           "parameters": [
@@ -20129,7 +20129,7 @@
         "type": "subroutineBlock",
         "id": "m-#B9fB{+9b`-s{gN%Mq",
         "x": 0,
-        "y": 25108,
+        "y": 25167,
         "extraState": {
           "subroutineName": "updateIcon",
           "parameters": [
@@ -20642,17 +20642,17 @@
                   "next": {
                     "block": {
                       "type": "subroutineInstanceBlock",
-                      "id": "NwY9p?^jG$%}G?$(Ko4F",
+                      "id": "]GQp%vZx1{VqCTa)?Mn+",
                       "extraState": {
-                        "subroutineName": "updateIcon",
+                        "subroutineName": "updateCurrentMcom",
                         "parameters": [
-                          {
-                            "types": "Vector",
-                            "name": "position"
-                          },
                           {
                             "types": "TeamId",
                             "name": "team"
+                          },
+                          {
+                            "types": "Vector",
+                            "name": "position"
                           },
                           {
                             "types": "Boolean",
@@ -20661,18 +20661,27 @@
                         ]
                       },
                       "fields": {
-                        "SUBROUTINE_NAME": "updateIcon"
+                        "SUBROUTINE_NAME": "updateCurrentMcom"
                       },
                       "inputs": {
                         "PARAM-0": {
                           "block": {
+                            "type": "subroutineArgumentBlock",
+                            "id": "7m_I_}:0%WKnsiwCb$0/",
+                            "fields": {
+                              "ARGUMENT_INDEX": "0"
+                            }
+                          }
+                        },
+                        "PARAM-1": {
+                          "block": {
                             "type": "CreateVector",
-                            "id": "$05*WO`gKi[DF{Osiv3f",
+                            "id": "%#AZz{Hr+Eo{`ID8V*S9",
                             "inputs": {
                               "VALUE-0": {
                                 "block": {
                                   "type": "Number",
-                                  "id": "b*or802Kl6l2WzNs+n7v",
+                                  "id": "N1z!`sBc`,*rh=G(XVs|",
                                   "fields": {
                                     "NUM": 0
                                   }
@@ -20681,7 +20690,7 @@
                               "VALUE-1": {
                                 "block": {
                                   "type": "Number",
-                                  "id": "1ehR@v*T-YLIGUWydSTm",
+                                  "id": "DfLKDc(.D@1?zWw~|)NE",
                                   "fields": {
                                     "NUM": 0
                                   }
@@ -20690,7 +20699,7 @@
                               "VALUE-2": {
                                 "block": {
                                   "type": "Number",
-                                  "id": "$teapmm6%}($VT8(}YNx",
+                                  "id": "89C1%=y}B^BVVOPQEIo3",
                                   "fields": {
                                     "NUM": 0
                                   }
@@ -20699,21 +20708,93 @@
                             }
                           }
                         },
-                        "PARAM-1": {
-                          "block": {
-                            "type": "subroutineArgumentBlock",
-                            "id": "G6p]Q_YCQ!{7UhMFi;5%",
-                            "fields": {
-                              "ARGUMENT_INDEX": "0"
-                            }
-                          }
-                        },
                         "PARAM-2": {
                           "block": {
                             "type": "Boolean",
-                            "id": "`F7%8tx{G(pD`cV,:e:@",
+                            "id": "M@Y8sa-G@rDAmp)5G@kR",
                             "fields": {
                               "BOOL": "FALSE"
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "subroutineInstanceBlock",
+                          "id": "NwY9p?^jG$%}G?$(Ko4F",
+                          "extraState": {
+                            "subroutineName": "updateIcon",
+                            "parameters": [
+                              {
+                                "types": "Vector",
+                                "name": "position"
+                              },
+                              {
+                                "types": "TeamId",
+                                "name": "team"
+                              },
+                              {
+                                "types": "Boolean",
+                                "name": "enable"
+                              }
+                            ]
+                          },
+                          "fields": {
+                            "SUBROUTINE_NAME": "updateIcon"
+                          },
+                          "inputs": {
+                            "PARAM-0": {
+                              "block": {
+                                "type": "CreateVector",
+                                "id": "$05*WO`gKi[DF{Osiv3f",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "b*or802Kl6l2WzNs+n7v",
+                                      "fields": {
+                                        "NUM": 0
+                                      }
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "1ehR@v*T-YLIGUWydSTm",
+                                      "fields": {
+                                        "NUM": 0
+                                      }
+                                    }
+                                  },
+                                  "VALUE-2": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "$teapmm6%}($VT8(}YNx",
+                                      "fields": {
+                                        "NUM": 0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "PARAM-1": {
+                              "block": {
+                                "type": "subroutineArgumentBlock",
+                                "id": "G6p]Q_YCQ!{7UhMFi;5%",
+                                "fields": {
+                                  "ARGUMENT_INDEX": "0"
+                                }
+                              }
+                            },
+                            "PARAM-2": {
+                              "block": {
+                                "type": "Boolean",
+                                "id": "`F7%8tx{G(pD`cV,:e:@",
+                                "fields": {
+                                  "BOOL": "FALSE"
+                                }
+                              }
                             }
                           }
                         }
@@ -20730,7 +20811,7 @@
         "type": "subroutineBlock",
         "id": "0O,thCXo^K5DNISO:|.#",
         "x": 0,
-        "y": 21561,
+        "y": 21620,
         "extraState": {
           "subroutineName": "updatePreparationIcon",
           "parameters": [
