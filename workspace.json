@@ -22,223 +22,14 @@
               "inputs": {
                 "ACTIONS": {
                   "block": {
-                    "type": "SetVariable",
-                    "id": "O3l/[[RyjyQef[0,Y#{G",
-                    "inputs": {
-                      "VALUE-0": {
-                        "block": {
-                          "type": "variableReferenceBlock",
-                          "id": "$1w69JN#CFX*G$J@9ejC",
-                          "extraState": {
-                            "isObjectVar": false
-                          },
-                          "fields": {
-                            "OBJECTTYPE": "Global",
-                            "VAR": {
-                              "id": "+Gl73eOP#EN^JuAh0pRx"
-                            }
-                          }
-                        }
-                      },
-                      "VALUE-1": {
-                        "block": {
-                          "type": "Number",
-                          "id": "q9/k5}rm5/z.Z!4ZdwJ7",
-                          "fields": {
-                            "NUM": 2042
-                          }
-                        }
-                      }
+                    "type": "subroutineInstanceBlock",
+                    "id": "$Xk]LL.CsJgK4@Zdjt1t",
+                    "extraState": {
+                      "subroutineName": "cnc_init",
+                      "parameters": []
                     },
-                    "next": {
-                      "block": {
-                        "type": "SetVariable",
-                        "id": "uO7OVWJqV)A[yBbvky/?",
-                        "inputs": {
-                          "VALUE-0": {
-                            "block": {
-                              "type": "variableReferenceBlock",
-                              "id": "#e3T@uws5g%+NvEl2R8B",
-                              "extraState": {
-                                "isObjectVar": false
-                              },
-                              "fields": {
-                                "OBJECTTYPE": "Global",
-                                "VAR": {
-                                  "id": "%@k*SqjUMps/UJhlB5WL"
-                                }
-                              }
-                            }
-                          },
-                          "VALUE-1": {
-                            "block": {
-                              "type": "Number",
-                              "id": "WxvFQWf6%w$F*r!l*JNE",
-                              "fields": {
-                                "NUM": 3
-                              }
-                            }
-                          }
-                        },
-                        "next": {
-                          "block": {
-                            "type": "SetVariable",
-                            "id": "A)K$c{j0UDXa|Opx149[",
-                            "inputs": {
-                              "VALUE-0": {
-                                "block": {
-                                  "type": "variableReferenceBlock",
-                                  "id": "X$|.J8qIbjoYvb9YHT+)",
-                                  "extraState": {
-                                    "isObjectVar": false
-                                  },
-                                  "fields": {
-                                    "OBJECTTYPE": "Global",
-                                    "VAR": {
-                                      "id": "I#230JHl#@8O:AT+J.;("
-                                    }
-                                  }
-                                }
-                              },
-                              "VALUE-1": {
-                                "block": {
-                                  "type": "Number",
-                                  "id": "6(vh+TqRditTrB3%B8mU",
-                                  "fields": {
-                                    "NUM": 30
-                                  }
-                                }
-                              }
-                            },
-                            "next": {
-                              "block": {
-                                "type": "SetVariable",
-                                "id": "+wGtqt9LOJH{m~]hhA59",
-                                "inputs": {
-                                  "VALUE-0": {
-                                    "block": {
-                                      "type": "variableReferenceBlock",
-                                      "id": "60O@xYpQpa/bv1vk.d-Q",
-                                      "extraState": {
-                                        "isObjectVar": false
-                                      },
-                                      "fields": {
-                                        "OBJECTTYPE": "Global",
-                                        "VAR": {
-                                          "id": "yFnf}qG?]7U=vy@6)3se"
-                                        }
-                                      }
-                                    }
-                                  },
-                                  "VALUE-1": {
-                                    "block": {
-                                      "type": "Boolean",
-                                      "id": "un/Cag!T~+^b[kEJ%B;%",
-                                      "fields": {
-                                        "BOOL": "TRUE"
-                                      }
-                                    }
-                                  }
-                                },
-                                "next": {
-                                  "block": {
-                                    "type": "SetVariable",
-                                    "id": "sbCB.CKjtc+pz!hL-Guv",
-                                    "inputs": {
-                                      "VALUE-0": {
-                                        "block": {
-                                          "type": "variableReferenceBlock",
-                                          "id": ".wW1*#UptDj9cgF$B]~w",
-                                          "extraState": {
-                                            "isObjectVar": false
-                                          },
-                                          "fields": {
-                                            "OBJECTTYPE": "Global",
-                                            "VAR": {
-                                              "id": "rwagCy!4r[I8+uRE;y;."
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "VALUE-1": {
-                                        "block": {
-                                          "type": "Number",
-                                          "id": "ZjW,ge}R-UlNv8C-9!VD",
-                                          "fields": {
-                                            "NUM": 20
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "next": {
-                                      "block": {
-                                        "type": "SetVariable",
-                                        "id": "lR6X6hodahCh8!b8@a_u",
-                                        "inputs": {
-                                          "VALUE-0": {
-                                            "block": {
-                                              "type": "variableReferenceBlock",
-                                              "id": "`RP#=d9gbGcx7Oi)D4+!",
-                                              "extraState": {
-                                                "isObjectVar": false
-                                              },
-                                              "fields": {
-                                                "OBJECTTYPE": "Global",
-                                                "VAR": {
-                                                  "id": "LL00CV-Zx|8jv/,kuV)Z"
-                                                }
-                                              }
-                                            }
-                                          },
-                                          "VALUE-1": {
-                                            "block": {
-                                              "type": "Number",
-                                              "id": "o0TsYR8?f|Gq{4zz3=}o",
-                                              "fields": {
-                                                "NUM": 350
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "next": {
-                                          "block": {
-                                            "type": "SetRoundTimeLimit",
-                                            "id": "/h2aEIK%O;Qx`#;g6]t`",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "Number",
-                                                  "id": ",7ehnq8($(),DhXykdSo",
-                                                  "fields": {
-                                                    "NUM": 1200
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            "next": {
-                                              "block": {
-                                                "type": "subroutineInstanceBlock",
-                                                "id": "q[drJV7Tk2@21q{Zy+T,",
-                                                "extraState": {
-                                                  "subroutineName": "internalInitialization",
-                                                  "parameters": []
-                                                },
-                                                "fields": {
-                                                  "SUBROUTINE_NAME": "internalInitialization"
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
+                    "fields": {
+                      "SUBROUTINE_NAME": "cnc_init"
                     }
                   }
                 }
@@ -4112,7 +3903,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 20849,
+        "y": 21115,
         "extraState": {
           "subroutineName": "executeEverySecond",
           "parameters": []
@@ -4509,7 +4300,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 26667,
+        "y": 26933,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -4752,7 +4543,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 20567,
+        "y": 20833,
         "extraState": {
           "subroutineName": "removeTickets",
           "parameters": [
@@ -4827,7 +4618,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 19865,
+        "y": 20131,
         "extraState": {
           "subroutineName": "endGameMode",
           "parameters": []
@@ -5100,7 +4891,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 11774,
+        "y": 12040,
         "extraState": {
           "subroutineName": "initMap",
           "parameters": []
@@ -15180,7 +14971,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 18149,
+        "y": 18415,
         "extraState": {
           "subroutineName": "addMcom",
           "parameters": [
@@ -15663,7 +15454,7 @@
         "type": "subroutineBlock",
         "id": "@bNE:npsQk;n*pQX^5Pg",
         "x": 0,
-        "y": 19425,
+        "y": 19691,
         "extraState": {
           "subroutineName": "updateCurrentMcom",
           "parameters": [
@@ -16113,7 +15904,7 @@
         "type": "subroutineBlock",
         "id": "@K]PSsiqD:*G,{iJ.IYY",
         "x": 0,
-        "y": 22807,
+        "y": 23073,
         "extraState": {
           "subroutineName": "displayMessages",
           "parameters": [
@@ -17414,7 +17205,7 @@
         "type": "subroutineBlock",
         "id": "s9{IbuJ8rr0^mLK]e^%o",
         "x": 0,
-        "y": 24793,
+        "y": 25059,
         "extraState": {
           "subroutineName": "hackerActions",
           "parameters": [
@@ -18025,7 +17816,7 @@
         "type": "subroutineBlock",
         "id": "NyyMZoic50u)]pC5H$x2",
         "x": 0,
-        "y": 11331,
+        "y": 11597,
         "extraState": {
           "subroutineName": "initPlayerVariables",
           "parameters": [
@@ -18191,47 +17982,54 @@
         "type": "subroutineBlock",
         "id": "qa*ZXQ`,xazY;LCF:(wn",
         "x": 0,
-        "y": 8877,
+        "y": 9143,
         "extraState": {
-          "subroutineName": "internalInitialization",
+          "subroutineName": "cnc_internalInit",
           "parameters": []
         },
         "fields": {
-          "SUBROUTINE_NAME": "internalInitialization"
+          "SUBROUTINE_NAME": "cnc_internalInit"
         },
         "inputs": {
           "ACTIONS": {
             "block": {
-              "type": "SendErrorReport",
-              "id": "Eo*zYv[!?riuZWHS^?P`",
+              "type": "SetVariable",
+              "id": "lvL5BW^G29.j;s@rb!`7",
               "inputs": {
                 "VALUE-0": {
                   "block": {
-                    "type": "Message",
-                    "id": "Y5^9HF9I6mbR*3LfF.+H",
-                    "inputs": {
-                      "VALUE-0": {
-                        "block": {
-                          "type": "Text",
-                          "id": "@Yj;b~zjL-Ez@QTG.BM:",
-                          "fields": {
-                            "TEXT": "DEBUG: Initialize Gamemode..."
-                          }
-                        }
+                    "type": "variableReferenceBlock",
+                    "id": "]t${g2!oMctC-%W*K~Av",
+                    "extraState": {
+                      "isObjectVar": false
+                    },
+                    "fields": {
+                      "OBJECTTYPE": "Global",
+                      "VAR": {
+                        "id": "v2fnswrJrWs*K!!%[-Ee"
                       }
+                    }
+                  }
+                },
+                "VALUE-1": {
+                  "block": {
+                    "type": "Number",
+                    "id": "BzPwe$G6{!QlogzJ7V6K",
+                    "fields": {
+                      "NUM": 2
                     }
                   }
                 }
               },
               "next": {
                 "block": {
-                  "type": "SetVariable",
-                  "id": "lvL5BW^G29.j;s@rb!`7",
+                  "type": "ChaseVariableAtRate",
+                  "id": "@Ab[69t+8vmK|AOkYVGt",
                   "inputs": {
                     "VALUE-0": {
                       "block": {
                         "type": "variableReferenceBlock",
-                        "id": "]t${g2!oMctC-%W*K~Av",
+                        "id": "uF7_g,2@Gi_m;)4~Hhnp",
                         "extraState": {
                           "isObjectVar": false
                         },
@@ -18246,29 +18044,38 @@
                     "VALUE-1": {
                       "block": {
                         "type": "Number",
-                        "id": "BzPwe$G6{!QlogzJ7V6K",
+                        "id": "KKA*f?nB!U!lDgNL{fuw",
                         "fields": {
-                          "NUM": 2
+                          "NUM": 0
+                        }
+                      }
+                    },
+                    "VALUE-2": {
+                      "block": {
+                        "type": "Number",
+                        "id": "k`4z~|K~Eoljb/IX2bT_",
+                        "fields": {
+                          "NUM": -1
                         }
                       }
                     }
                   },
                   "next": {
                     "block": {
-                      "type": "ChaseVariableAtRate",
-                      "id": "@Ab[69t+8vmK|AOkYVGt",
+                      "type": "SetVariableAtIndex",
+                      "id": "5Bbek9+pOe?tdcq]5JWy",
                       "inputs": {
                         "VALUE-0": {
                           "block": {
                             "type": "variableReferenceBlock",
-                            "id": "uF7_g,2@Gi_m;)4~Hhnp",
+                            "id": "B1vbCXv0~e8z+x4.o^iv",
                             "extraState": {
                               "isObjectVar": false
                             },
                             "fields": {
                               "OBJECTTYPE": "Global",
                               "VAR": {
-                                "id": "v2fnswrJrWs*K!!%[-Ee"
+                                "id": "ofi%N/:a6][0M6v=ErF$"
                               }
                             }
                           }
@@ -18276,7 +18083,7 @@
                         "VALUE-1": {
                           "block": {
                             "type": "Number",
-                            "id": "KKA*f?nB!U!lDgNL{fuw",
+                            "id": "Wm:#i8M+Hq`YG+vR#UvH",
                             "fields": {
                               "NUM": 0
                             }
@@ -18284,10 +18091,10 @@
                         },
                         "VALUE-2": {
                           "block": {
-                            "type": "Number",
-                            "id": "k`4z~|K~Eoljb/IX2bT_",
+                            "type": "Boolean",
+                            "id": "pk1fBvk#jK$MfdTq2~WP",
                             "fields": {
-                              "NUM": -1
+                              "BOOL": "TRUE"
                             }
                           }
                         }
@@ -18295,12 +18102,12 @@
                       "next": {
                         "block": {
                           "type": "SetVariableAtIndex",
-                          "id": "5Bbek9+pOe?tdcq]5JWy",
+                          "id": "9B(+$=LQ3u)`ZR8aR5U7",
                           "inputs": {
                             "VALUE-0": {
                               "block": {
                                 "type": "variableReferenceBlock",
-                                "id": "B1vbCXv0~e8z+x4.o^iv",
+                                "id": "{%*o=%,G5$AUO88hCxRL",
                                 "extraState": {
                                   "isObjectVar": false
                                 },
@@ -18315,16 +18122,16 @@
                             "VALUE-1": {
                               "block": {
                                 "type": "Number",
-                                "id": "Wm:#i8M+Hq`YG+vR#UvH",
+                                "id": "8EXcaBcOVPw[ll@R^8K4",
                                 "fields": {
-                                  "NUM": 0
+                                  "NUM": 1
                                 }
                               }
                             },
                             "VALUE-2": {
                               "block": {
                                 "type": "Boolean",
-                                "id": "pk1fBvk#jK$MfdTq2~WP",
+                                "id": "XxJ.DL-6?pD^@L.B@13X",
                                 "fields": {
                                   "BOOL": "TRUE"
                                 }
@@ -18334,12 +18141,12 @@
                           "next": {
                             "block": {
                               "type": "SetVariableAtIndex",
-                              "id": "9B(+$=LQ3u)`ZR8aR5U7",
+                              "id": "Fn,cHV^5y,prqJ_iL%38",
                               "inputs": {
                                 "VALUE-0": {
                                   "block": {
                                     "type": "variableReferenceBlock",
-                                    "id": "{%*o=%,G5$AUO88hCxRL",
+                                    "id": "_F?#D+`mT`z7sR+d?!TJ",
                                     "extraState": {
                                       "isObjectVar": false
                                     },
@@ -18354,16 +18161,16 @@
                                 "VALUE-1": {
                                   "block": {
                                     "type": "Number",
-                                    "id": "8EXcaBcOVPw[ll@R^8K4",
+                                    "id": "Cbu4^TaGjzmw/!z,riTp",
                                     "fields": {
-                                      "NUM": 1
+                                      "NUM": 2
                                     }
                                   }
                                 },
                                 "VALUE-2": {
                                   "block": {
                                     "type": "Boolean",
-                                    "id": "XxJ.DL-6?pD^@L.B@13X",
+                                    "id": ";ab[Yh$T~xs.afc,6E+A",
                                     "fields": {
                                       "BOOL": "TRUE"
                                     }
@@ -18372,71 +18179,78 @@
                               },
                               "next": {
                                 "block": {
-                                  "type": "SetVariableAtIndex",
-                                  "id": "Fn,cHV^5y,prqJ_iL%38",
+                                  "type": "SetVariable",
+                                  "id": "#[hplxH)o5|l:O*es_(3",
                                   "inputs": {
                                     "VALUE-0": {
                                       "block": {
                                         "type": "variableReferenceBlock",
-                                        "id": "_F?#D+`mT`z7sR+d?!TJ",
+                                        "id": "Z2~I81il[_mJy@Q+@%|F",
                                         "extraState": {
-                                          "isObjectVar": false
+                                          "isObjectVar": true
                                         },
                                         "fields": {
-                                          "OBJECTTYPE": "Global",
+                                          "OBJECTTYPE": "TeamId",
                                           "VAR": {
-                                            "id": "ofi%N/:a6][0M6v=ErF$"
+                                            "id": "]4^_NvUs=O9o`QL.8ThE"
+                                          }
+                                        },
+                                        "inputs": {
+                                          "OBJECT": {
+                                            "block": {
+                                              "type": "GetTeamId",
+                                              "id": "Ix1-tnm`2CB~MPSs/Vcc",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "1~q4)$B,m2IK+F9_^h{!",
+                                                    "fields": {
+                                                      "NUM": 1
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
                                           }
                                         }
                                       }
                                     },
                                     "VALUE-1": {
                                       "block": {
-                                        "type": "Number",
-                                        "id": "Cbu4^TaGjzmw/!z,riTp",
-                                        "fields": {
-                                          "NUM": 2
-                                        }
-                                      }
-                                    },
-                                    "VALUE-2": {
-                                      "block": {
-                                        "type": "Boolean",
-                                        "id": ";ab[Yh$T~xs.afc,6E+A",
-                                        "fields": {
-                                          "BOOL": "TRUE"
-                                        }
+                                        "type": "EmptyArray",
+                                        "id": "hc0=@nurnU3n7w@K9TH3"
                                       }
                                     }
                                   },
                                   "next": {
                                     "block": {
                                       "type": "SetVariable",
-                                      "id": "#[hplxH)o5|l:O*es_(3",
+                                      "id": "S[;_Pk-=y{-Clnmpj_AY",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
                                             "type": "variableReferenceBlock",
-                                            "id": "Z2~I81il[_mJy@Q+@%|F",
+                                            "id": "SEVXb_p,_Af704!$tj~Y",
                                             "extraState": {
                                               "isObjectVar": true
                                             },
                                             "fields": {
                                               "OBJECTTYPE": "TeamId",
                                               "VAR": {
-                                                "id": "]4^_NvUs=O9o`QL.8ThE"
+                                                "id": "C2U)9EJDsx_3]1^qxT(Y"
                                               }
                                             },
                                             "inputs": {
                                               "OBJECT": {
                                                 "block": {
                                                   "type": "GetTeamId",
-                                                  "id": "Ix1-tnm`2CB~MPSs/Vcc",
+                                                  "id": "3I4p}.XD?LAhD3Sx1mPS",
                                                   "inputs": {
                                                     "VALUE-0": {
                                                       "block": {
                                                         "type": "Number",
-                                                        "id": "1~q4)$B,m2IK+F9_^h{!",
+                                                        "id": "]R*Ka_Iw`jD5~NK3]wsK",
                                                         "fields": {
                                                           "NUM": 1
                                                         }
@@ -18451,38 +18265,38 @@
                                         "VALUE-1": {
                                           "block": {
                                             "type": "EmptyArray",
-                                            "id": "hc0=@nurnU3n7w@K9TH3"
+                                            "id": "=_)Rsm^,9yBz4J{5%#u2"
                                           }
                                         }
                                       },
                                       "next": {
                                         "block": {
                                           "type": "SetVariable",
-                                          "id": "S[;_Pk-=y{-Clnmpj_AY",
+                                          "id": "I/C6:f8T8G|v/CU_6E,X",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
                                                 "type": "variableReferenceBlock",
-                                                "id": "SEVXb_p,_Af704!$tj~Y",
+                                                "id": "XH%[]TpnOJ146p}TifFy",
                                                 "extraState": {
                                                   "isObjectVar": true
                                                 },
                                                 "fields": {
                                                   "OBJECTTYPE": "TeamId",
                                                   "VAR": {
-                                                    "id": "C2U)9EJDsx_3]1^qxT(Y"
+                                                    "id": "0(N,I/g}X}B0y8Bo3kEk"
                                                   }
                                                 },
                                                 "inputs": {
                                                   "OBJECT": {
                                                     "block": {
                                                       "type": "GetTeamId",
-                                                      "id": "3I4p}.XD?LAhD3Sx1mPS",
+                                                      "id": "s`QrQ)y2-6q81p]6f(v0",
                                                       "inputs": {
                                                         "VALUE-0": {
                                                           "block": {
                                                             "type": "Number",
-                                                            "id": "]R*Ka_Iw`jD5~NK3]wsK",
+                                                            "id": "[q*qVz8tHD%m?x:3Ffix",
                                                             "fields": {
                                                               "NUM": 1
                                                             }
@@ -18497,38 +18311,38 @@
                                             "VALUE-1": {
                                               "block": {
                                                 "type": "EmptyArray",
-                                                "id": "=_)Rsm^,9yBz4J{5%#u2"
+                                                "id": "`SEa3-R4.sGY[m*H%+O|"
                                               }
                                             }
                                           },
                                           "next": {
                                             "block": {
                                               "type": "SetVariable",
-                                              "id": "I/C6:f8T8G|v/CU_6E,X",
+                                              "id": "L^y`K~g^Vz_KG2]2Sx#L",
                                               "inputs": {
                                                 "VALUE-0": {
                                                   "block": {
                                                     "type": "variableReferenceBlock",
-                                                    "id": "XH%[]TpnOJ146p}TifFy",
+                                                    "id": "F!seBiHf+qEa`d~omD2(",
                                                     "extraState": {
                                                       "isObjectVar": true
                                                     },
                                                     "fields": {
                                                       "OBJECTTYPE": "TeamId",
                                                       "VAR": {
-                                                        "id": "0(N,I/g}X}B0y8Bo3kEk"
+                                                        "id": "/pEg~:$!85PeGQ`Qm66]"
                                                       }
                                                     },
                                                     "inputs": {
                                                       "OBJECT": {
                                                         "block": {
                                                           "type": "GetTeamId",
-                                                          "id": "s`QrQ)y2-6q81p]6f(v0",
+                                                          "id": "O=0-,:jw?T}+29]CJxfP",
                                                           "inputs": {
                                                             "VALUE-0": {
                                                               "block": {
                                                                 "type": "Number",
-                                                                "id": "[q*qVz8tHD%m?x:3Ffix",
+                                                                "id": "%@wySuYVnK~{=W_n`4YL",
                                                                 "fields": {
                                                                   "NUM": 1
                                                                 }
@@ -18543,38 +18357,38 @@
                                                 "VALUE-1": {
                                                   "block": {
                                                     "type": "EmptyArray",
-                                                    "id": "`SEa3-R4.sGY[m*H%+O|"
+                                                    "id": "Uq~IO6}5gIF;E4}YEKr-"
                                                   }
                                                 }
                                               },
                                               "next": {
                                                 "block": {
                                                   "type": "SetVariable",
-                                                  "id": "L^y`K~g^Vz_KG2]2Sx#L",
+                                                  "id": "Ml:6]sFdEc_{UyjiQK+`",
                                                   "inputs": {
                                                     "VALUE-0": {
                                                       "block": {
                                                         "type": "variableReferenceBlock",
-                                                        "id": "F!seBiHf+qEa`d~omD2(",
+                                                        "id": "}OZQM(T*SWr]JX|QTg6}",
                                                         "extraState": {
                                                           "isObjectVar": true
                                                         },
                                                         "fields": {
                                                           "OBJECTTYPE": "TeamId",
                                                           "VAR": {
-                                                            "id": "/pEg~:$!85PeGQ`Qm66]"
+                                                            "id": "o)tMrmdLy({zq^`YdT%@"
                                                           }
                                                         },
                                                         "inputs": {
                                                           "OBJECT": {
                                                             "block": {
                                                               "type": "GetTeamId",
-                                                              "id": "O=0-,:jw?T}+29]CJxfP",
+                                                              "id": "+IpxkSI=lWK][=?ZfZH8",
                                                               "inputs": {
                                                                 "VALUE-0": {
                                                                   "block": {
                                                                     "type": "Number",
-                                                                    "id": "%@wySuYVnK~{=W_n`4YL",
+                                                                    "id": "ov==ElI4$C%7LOmP[8Ge",
                                                                     "fields": {
                                                                       "NUM": 1
                                                                     }
@@ -18589,40 +18403,40 @@
                                                     "VALUE-1": {
                                                       "block": {
                                                         "type": "EmptyArray",
-                                                        "id": "Uq~IO6}5gIF;E4}YEKr-"
+                                                        "id": ";!8U*AN:VwGbn_s(*0XL"
                                                       }
                                                     }
                                                   },
                                                   "next": {
                                                     "block": {
                                                       "type": "SetVariable",
-                                                      "id": "Ml:6]sFdEc_{UyjiQK+`",
+                                                      "id": "6GmujW{G?x,KrS]8d|@c",
                                                       "inputs": {
                                                         "VALUE-0": {
                                                           "block": {
                                                             "type": "variableReferenceBlock",
-                                                            "id": "}OZQM(T*SWr]JX|QTg6}",
+                                                            "id": "RcJEuQkl^HyLGyWPh#rH",
                                                             "extraState": {
                                                               "isObjectVar": true
                                                             },
                                                             "fields": {
                                                               "OBJECTTYPE": "TeamId",
                                                               "VAR": {
-                                                                "id": "o)tMrmdLy({zq^`YdT%@"
+                                                                "id": "]4^_NvUs=O9o`QL.8ThE"
                                                               }
                                                             },
                                                             "inputs": {
                                                               "OBJECT": {
                                                                 "block": {
                                                                   "type": "GetTeamId",
-                                                                  "id": "+IpxkSI=lWK][=?ZfZH8",
+                                                                  "id": "C;vPUM^)%B}6v~HLET*;",
                                                                   "inputs": {
                                                                     "VALUE-0": {
                                                                       "block": {
                                                                         "type": "Number",
-                                                                        "id": "ov==ElI4$C%7LOmP[8Ge",
+                                                                        "id": "XP;mdn.C]mKI532)2(.@",
                                                                         "fields": {
-                                                                          "NUM": 1
+                                                                          "NUM": 2
                                                                         }
                                                                       }
                                                                     }
@@ -18635,38 +18449,38 @@
                                                         "VALUE-1": {
                                                           "block": {
                                                             "type": "EmptyArray",
-                                                            "id": ";!8U*AN:VwGbn_s(*0XL"
+                                                            "id": "NGM;67vI,qY-:YiU``e^"
                                                           }
                                                         }
                                                       },
                                                       "next": {
                                                         "block": {
                                                           "type": "SetVariable",
-                                                          "id": "6GmujW{G?x,KrS]8d|@c",
+                                                          "id": "SVhs.+GGn$r[Y91(1iVD",
                                                           "inputs": {
                                                             "VALUE-0": {
                                                               "block": {
                                                                 "type": "variableReferenceBlock",
-                                                                "id": "RcJEuQkl^HyLGyWPh#rH",
+                                                                "id": "nymT*:R8cH6tx~dks*LB",
                                                                 "extraState": {
                                                                   "isObjectVar": true
                                                                 },
                                                                 "fields": {
                                                                   "OBJECTTYPE": "TeamId",
                                                                   "VAR": {
-                                                                    "id": "]4^_NvUs=O9o`QL.8ThE"
+                                                                    "id": "C2U)9EJDsx_3]1^qxT(Y"
                                                                   }
                                                                 },
                                                                 "inputs": {
                                                                   "OBJECT": {
                                                                     "block": {
                                                                       "type": "GetTeamId",
-                                                                      "id": "C;vPUM^)%B}6v~HLET*;",
+                                                                      "id": "k^om=MsSO=K9Qb(+7KTL",
                                                                       "inputs": {
                                                                         "VALUE-0": {
                                                                           "block": {
                                                                             "type": "Number",
-                                                                            "id": "XP;mdn.C]mKI532)2(.@",
+                                                                            "id": "B3AU[4L10t4iqKoRC{qD",
                                                                             "fields": {
                                                                               "NUM": 2
                                                                             }
@@ -18681,38 +18495,38 @@
                                                             "VALUE-1": {
                                                               "block": {
                                                                 "type": "EmptyArray",
-                                                                "id": "NGM;67vI,qY-:YiU``e^"
+                                                                "id": "({,$3IV[.q87LmV^3JI,"
                                                               }
                                                             }
                                                           },
                                                           "next": {
                                                             "block": {
                                                               "type": "SetVariable",
-                                                              "id": "SVhs.+GGn$r[Y91(1iVD",
+                                                              "id": "4L,5?Hjt|N!:q3NV_!BP",
                                                               "inputs": {
                                                                 "VALUE-0": {
                                                                   "block": {
                                                                     "type": "variableReferenceBlock",
-                                                                    "id": "nymT*:R8cH6tx~dks*LB",
+                                                                    "id": "lc0`.p[Sb:xwoB}I@:,p",
                                                                     "extraState": {
                                                                       "isObjectVar": true
                                                                     },
                                                                     "fields": {
                                                                       "OBJECTTYPE": "TeamId",
                                                                       "VAR": {
-                                                                        "id": "C2U)9EJDsx_3]1^qxT(Y"
+                                                                        "id": "0(N,I/g}X}B0y8Bo3kEk"
                                                                       }
                                                                     },
                                                                     "inputs": {
                                                                       "OBJECT": {
                                                                         "block": {
                                                                           "type": "GetTeamId",
-                                                                          "id": "k^om=MsSO=K9Qb(+7KTL",
+                                                                          "id": "-sih)n2,9=Cu9Pr~!9C3",
                                                                           "inputs": {
                                                                             "VALUE-0": {
                                                                               "block": {
                                                                                 "type": "Number",
-                                                                                "id": "B3AU[4L10t4iqKoRC{qD",
+                                                                                "id": "iU9,$w;t85-F)[^lawQ_",
                                                                                 "fields": {
                                                                                   "NUM": 2
                                                                                 }
@@ -18727,38 +18541,38 @@
                                                                 "VALUE-1": {
                                                                   "block": {
                                                                     "type": "EmptyArray",
-                                                                    "id": "({,$3IV[.q87LmV^3JI,"
+                                                                    "id": "Yl.Jh_qq:7O`Ya$j[wqM"
                                                                   }
                                                                 }
                                                               },
                                                               "next": {
                                                                 "block": {
                                                                   "type": "SetVariable",
-                                                                  "id": "4L,5?Hjt|N!:q3NV_!BP",
+                                                                  "id": "OZ^Vp$K-m(tTsy*RUM`_",
                                                                   "inputs": {
                                                                     "VALUE-0": {
                                                                       "block": {
                                                                         "type": "variableReferenceBlock",
-                                                                        "id": "lc0`.p[Sb:xwoB}I@:,p",
+                                                                        "id": "{EDHr-%kTQ=;ZLfvEF5v",
                                                                         "extraState": {
                                                                           "isObjectVar": true
                                                                         },
                                                                         "fields": {
                                                                           "OBJECTTYPE": "TeamId",
                                                                           "VAR": {
-                                                                            "id": "0(N,I/g}X}B0y8Bo3kEk"
+                                                                            "id": "/pEg~:$!85PeGQ`Qm66]"
                                                                           }
                                                                         },
                                                                         "inputs": {
                                                                           "OBJECT": {
                                                                             "block": {
                                                                               "type": "GetTeamId",
-                                                                              "id": "-sih)n2,9=Cu9Pr~!9C3",
+                                                                              "id": "fAm^1oa@L+#tDzO^c%Qn",
                                                                               "inputs": {
                                                                                 "VALUE-0": {
                                                                                   "block": {
                                                                                     "type": "Number",
-                                                                                    "id": "iU9,$w;t85-F)[^lawQ_",
+                                                                                    "id": "O;0{zVu2wN@n~L[@2Qup",
                                                                                     "fields": {
                                                                                       "NUM": 2
                                                                                     }
@@ -18773,38 +18587,38 @@
                                                                     "VALUE-1": {
                                                                       "block": {
                                                                         "type": "EmptyArray",
-                                                                        "id": "Yl.Jh_qq:7O`Ya$j[wqM"
+                                                                        "id": "6M|jIzpD?g+V?=Q|]2[$"
                                                                       }
                                                                     }
                                                                   },
                                                                   "next": {
                                                                     "block": {
                                                                       "type": "SetVariable",
-                                                                      "id": "OZ^Vp$K-m(tTsy*RUM`_",
+                                                                      "id": "y-%IiIu0a-Iwz5]/4VHl",
                                                                       "inputs": {
                                                                         "VALUE-0": {
                                                                           "block": {
                                                                             "type": "variableReferenceBlock",
-                                                                            "id": "{EDHr-%kTQ=;ZLfvEF5v",
+                                                                            "id": "}(-VGo}Y}+uKh{}X(@n#",
                                                                             "extraState": {
                                                                               "isObjectVar": true
                                                                             },
                                                                             "fields": {
                                                                               "OBJECTTYPE": "TeamId",
                                                                               "VAR": {
-                                                                                "id": "/pEg~:$!85PeGQ`Qm66]"
+                                                                                "id": "o)tMrmdLy({zq^`YdT%@"
                                                                               }
                                                                             },
                                                                             "inputs": {
                                                                               "OBJECT": {
                                                                                 "block": {
                                                                                   "type": "GetTeamId",
-                                                                                  "id": "fAm^1oa@L+#tDzO^c%Qn",
+                                                                                  "id": "P{vs1!JFm4qr5P~mThdy",
                                                                                   "inputs": {
                                                                                     "VALUE-0": {
                                                                                       "block": {
                                                                                         "type": "Number",
-                                                                                        "id": "O;0{zVu2wN@n~L[@2Qup",
+                                                                                        "id": "ljlTQ51[:2gqP?+#*~i?",
                                                                                         "fields": {
                                                                                           "NUM": 2
                                                                                         }
@@ -18819,40 +18633,40 @@
                                                                         "VALUE-1": {
                                                                           "block": {
                                                                             "type": "EmptyArray",
-                                                                            "id": "6M|jIzpD?g+V?=Q|]2[$"
+                                                                            "id": "]sFsl!CChW_N6Z9e?IgI"
                                                                           }
                                                                         }
                                                                       },
                                                                       "next": {
                                                                         "block": {
                                                                           "type": "SetVariable",
-                                                                          "id": "y-%IiIu0a-Iwz5]/4VHl",
+                                                                          "id": ".cxs[Mb`D43H39c7PG~m",
                                                                           "inputs": {
                                                                             "VALUE-0": {
                                                                               "block": {
                                                                                 "type": "variableReferenceBlock",
-                                                                                "id": "}(-VGo}Y}+uKh{}X(@n#",
+                                                                                "id": "@N`1V:,$j/]em|;R:wT$",
                                                                                 "extraState": {
                                                                                   "isObjectVar": true
                                                                                 },
                                                                                 "fields": {
                                                                                   "OBJECTTYPE": "TeamId",
                                                                                   "VAR": {
-                                                                                    "id": "o)tMrmdLy({zq^`YdT%@"
+                                                                                    "id": "YYW2Uh!ZpRH6:d:3Hxm/"
                                                                                   }
                                                                                 },
                                                                                 "inputs": {
                                                                                   "OBJECT": {
                                                                                     "block": {
                                                                                       "type": "GetTeamId",
-                                                                                      "id": "P{vs1!JFm4qr5P~mThdy",
+                                                                                      "id": ":R}kdSrI[WTZ_iV7W?)V",
                                                                                       "inputs": {
                                                                                         "VALUE-0": {
                                                                                           "block": {
                                                                                             "type": "Number",
-                                                                                            "id": "ljlTQ51[:2gqP?+#*~i?",
+                                                                                            "id": "Y-0$E#Jf7v7=wp52qR[`",
                                                                                             "fields": {
-                                                                                              "NUM": 2
+                                                                                              "NUM": 1
                                                                                             }
                                                                                           }
                                                                                         }
@@ -18864,20 +18678,23 @@
                                                                             },
                                                                             "VALUE-1": {
                                                                               "block": {
-                                                                                "type": "EmptyArray",
-                                                                                "id": "]sFsl!CChW_N6Z9e?IgI"
+                                                                                "type": "Number",
+                                                                                "id": "#OO.;=?|^ma:{TLLT{dZ",
+                                                                                "fields": {
+                                                                                  "NUM": -1
+                                                                                }
                                                                               }
                                                                             }
                                                                           },
                                                                           "next": {
                                                                             "block": {
                                                                               "type": "SetVariable",
-                                                                              "id": ".cxs[Mb`D43H39c7PG~m",
+                                                                              "id": "JrUm{q%sVe3zYw0ezkal",
                                                                               "inputs": {
                                                                                 "VALUE-0": {
                                                                                   "block": {
                                                                                     "type": "variableReferenceBlock",
-                                                                                    "id": "@N`1V:,$j/]em|;R:wT$",
+                                                                                    "id": "Q~ejRuPv_m5,(SFHv-^+",
                                                                                     "extraState": {
                                                                                       "isObjectVar": true
                                                                                     },
@@ -18891,14 +18708,14 @@
                                                                                       "OBJECT": {
                                                                                         "block": {
                                                                                           "type": "GetTeamId",
-                                                                                          "id": ":R}kdSrI[WTZ_iV7W?)V",
+                                                                                          "id": "{ncamO7u@eoz-;m+5m}G",
                                                                                           "inputs": {
                                                                                             "VALUE-0": {
                                                                                               "block": {
                                                                                                 "type": "Number",
-                                                                                                "id": "Y-0$E#Jf7v7=wp52qR[`",
+                                                                                                "id": "L|#Zz3yk21Xj15c@oZgP",
                                                                                                 "fields": {
-                                                                                                  "NUM": 1
+                                                                                                  "NUM": 2
                                                                                                 }
                                                                                               }
                                                                                             }
@@ -18911,7 +18728,7 @@
                                                                                 "VALUE-1": {
                                                                                   "block": {
                                                                                     "type": "Number",
-                                                                                    "id": "#OO.;=?|^ma:{TLLT{dZ",
+                                                                                    "id": "h#2s9?{1OLb33;KP/mv5",
                                                                                     "fields": {
                                                                                       "NUM": -1
                                                                                     }
@@ -18921,33 +18738,33 @@
                                                                               "next": {
                                                                                 "block": {
                                                                                   "type": "SetVariable",
-                                                                                  "id": "JrUm{q%sVe3zYw0ezkal",
+                                                                                  "id": "AAlfi?]hSfRr^-)li$4j",
                                                                                   "inputs": {
                                                                                     "VALUE-0": {
                                                                                       "block": {
                                                                                         "type": "variableReferenceBlock",
-                                                                                        "id": "Q~ejRuPv_m5,(SFHv-^+",
+                                                                                        "id": "*-hyT5S8/q?r-5Nn2@Xf",
                                                                                         "extraState": {
                                                                                           "isObjectVar": true
                                                                                         },
                                                                                         "fields": {
                                                                                           "OBJECTTYPE": "TeamId",
                                                                                           "VAR": {
-                                                                                            "id": "YYW2Uh!ZpRH6:d:3Hxm/"
+                                                                                            "id": "MlhdKeUVN#{^;#pHJRr!"
                                                                                           }
                                                                                         },
                                                                                         "inputs": {
                                                                                           "OBJECT": {
                                                                                             "block": {
                                                                                               "type": "GetTeamId",
-                                                                                              "id": "{ncamO7u@eoz-;m+5m}G",
+                                                                                              "id": "TMlkla/7B#~.cVVO)=Z%",
                                                                                               "inputs": {
                                                                                                 "VALUE-0": {
                                                                                                   "block": {
                                                                                                     "type": "Number",
-                                                                                                    "id": "L|#Zz3yk21Xj15c@oZgP",
+                                                                                                    "id": "6Vmj%-AlH)(RJ;dE1qbp",
                                                                                                     "fields": {
-                                                                                                      "NUM": 2
+                                                                                                      "NUM": 1
                                                                                                     }
                                                                                                   }
                                                                                                 }
@@ -18959,10 +18776,18 @@
                                                                                     },
                                                                                     "VALUE-1": {
                                                                                       "block": {
-                                                                                        "type": "Number",
-                                                                                        "id": "h#2s9?{1OLb33;KP/mv5",
-                                                                                        "fields": {
-                                                                                          "NUM": -1
+                                                                                        "type": "GetTeamId",
+                                                                                        "id": "0YxZ9kfvBrr9o~(0ia[9",
+                                                                                        "inputs": {
+                                                                                          "VALUE-0": {
+                                                                                            "block": {
+                                                                                              "type": "Number",
+                                                                                              "id": "e#K3xvl%GH^_bZL*~X@K",
+                                                                                              "fields": {
+                                                                                                "NUM": 2
+                                                                                              }
+                                                                                            }
+                                                                                          }
                                                                                         }
                                                                                       }
                                                                                     }
@@ -18970,12 +18795,12 @@
                                                                                   "next": {
                                                                                     "block": {
                                                                                       "type": "SetVariable",
-                                                                                      "id": "AAlfi?]hSfRr^-)li$4j",
+                                                                                      "id": "nPTbL#qo3K}/?H;1@kyX",
                                                                                       "inputs": {
                                                                                         "VALUE-0": {
                                                                                           "block": {
                                                                                             "type": "variableReferenceBlock",
-                                                                                            "id": "*-hyT5S8/q?r-5Nn2@Xf",
+                                                                                            "id": ",wFL~D9qpUvuU~9Z[2ut",
                                                                                             "extraState": {
                                                                                               "isObjectVar": true
                                                                                             },
@@ -18989,14 +18814,14 @@
                                                                                               "OBJECT": {
                                                                                                 "block": {
                                                                                                   "type": "GetTeamId",
-                                                                                                  "id": "TMlkla/7B#~.cVVO)=Z%",
+                                                                                                  "id": "frW-bk`SD[@AWL0Ppu~X",
                                                                                                   "inputs": {
                                                                                                     "VALUE-0": {
                                                                                                       "block": {
                                                                                                         "type": "Number",
-                                                                                                        "id": "6Vmj%-AlH)(RJ;dE1qbp",
+                                                                                                        "id": "~~3VP4:$cxHW.G?7Po}1",
                                                                                                         "fields": {
-                                                                                                          "NUM": 1
+                                                                                                          "NUM": 2
                                                                                                         }
                                                                                                       }
                                                                                                     }
@@ -19009,14 +18834,14 @@
                                                                                         "VALUE-1": {
                                                                                           "block": {
                                                                                             "type": "GetTeamId",
-                                                                                            "id": "0YxZ9kfvBrr9o~(0ia[9",
+                                                                                            "id": "^0npi@YpZ1487IzkR*M-",
                                                                                             "inputs": {
                                                                                               "VALUE-0": {
                                                                                                 "block": {
                                                                                                   "type": "Number",
-                                                                                                  "id": "e#K3xvl%GH^_bZL*~X@K",
+                                                                                                  "id": "ty5J-sz:|m2C#tiV![E?",
                                                                                                   "fields": {
-                                                                                                    "NUM": 2
+                                                                                                    "NUM": 1
                                                                                                   }
                                                                                                 }
                                                                                               }
@@ -19027,33 +18852,33 @@
                                                                                       "next": {
                                                                                         "block": {
                                                                                           "type": "SetVariable",
-                                                                                          "id": "nPTbL#qo3K}/?H;1@kyX",
+                                                                                          "id": "$5PX`8Ay%}!{[EwBjHuc",
                                                                                           "inputs": {
                                                                                             "VALUE-0": {
                                                                                               "block": {
                                                                                                 "type": "variableReferenceBlock",
-                                                                                                "id": ",wFL~D9qpUvuU~9Z[2ut",
+                                                                                                "id": "6AJ^A]pyMyyb]!w{TFij",
                                                                                                 "extraState": {
                                                                                                   "isObjectVar": true
                                                                                                 },
                                                                                                 "fields": {
                                                                                                   "OBJECTTYPE": "TeamId",
                                                                                                   "VAR": {
-                                                                                                    "id": "MlhdKeUVN#{^;#pHJRr!"
+                                                                                                    "id": "$t:SQ(*BQJsR1^8Bt`S4"
                                                                                                   }
                                                                                                 },
                                                                                                 "inputs": {
                                                                                                   "OBJECT": {
                                                                                                     "block": {
                                                                                                       "type": "GetTeamId",
-                                                                                                      "id": "frW-bk`SD[@AWL0Ppu~X",
+                                                                                                      "id": "0x#FA?RTaM1I(j42kUgm",
                                                                                                       "inputs": {
                                                                                                         "VALUE-0": {
                                                                                                           "block": {
                                                                                                             "type": "Number",
-                                                                                                            "id": "~~3VP4:$cxHW.G?7Po}1",
+                                                                                                            "id": "S1;$$~*T*@Xrwd09[BB,",
                                                                                                             "fields": {
-                                                                                                              "NUM": 2
+                                                                                                              "NUM": 1
                                                                                                             }
                                                                                                           }
                                                                                                         }
@@ -19065,18 +18890,10 @@
                                                                                             },
                                                                                             "VALUE-1": {
                                                                                               "block": {
-                                                                                                "type": "GetTeamId",
-                                                                                                "id": "^0npi@YpZ1487IzkR*M-",
-                                                                                                "inputs": {
-                                                                                                  "VALUE-0": {
-                                                                                                    "block": {
-                                                                                                      "type": "Number",
-                                                                                                      "id": "ty5J-sz:|m2C#tiV![E?",
-                                                                                                      "fields": {
-                                                                                                        "NUM": 1
-                                                                                                      }
-                                                                                                    }
-                                                                                                  }
+                                                                                                "type": "Number",
+                                                                                                "id": "Oimi=LvvRkX)BoC)R#Y*",
+                                                                                                "fields": {
+                                                                                                  "NUM": 0
                                                                                                 }
                                                                                               }
                                                                                             }
@@ -19084,12 +18901,12 @@
                                                                                           "next": {
                                                                                             "block": {
                                                                                               "type": "SetVariable",
-                                                                                              "id": "$5PX`8Ay%}!{[EwBjHuc",
+                                                                                              "id": "@{XiglQRBGF:KE!jLQH!",
                                                                                               "inputs": {
                                                                                                 "VALUE-0": {
                                                                                                   "block": {
                                                                                                     "type": "variableReferenceBlock",
-                                                                                                    "id": "6AJ^A]pyMyyb]!w{TFij",
+                                                                                                    "id": ";}GC:0ZwSELku[2vka$[",
                                                                                                     "extraState": {
                                                                                                       "isObjectVar": true
                                                                                                     },
@@ -19103,14 +18920,14 @@
                                                                                                       "OBJECT": {
                                                                                                         "block": {
                                                                                                           "type": "GetTeamId",
-                                                                                                          "id": "0x#FA?RTaM1I(j42kUgm",
+                                                                                                          "id": "4M5$oddPhy3(bO=S@q@9",
                                                                                                           "inputs": {
                                                                                                             "VALUE-0": {
                                                                                                               "block": {
                                                                                                                 "type": "Number",
-                                                                                                                "id": "S1;$$~*T*@Xrwd09[BB,",
+                                                                                                                "id": "DrxFsD#+6]e.e..U*h=$",
                                                                                                                 "fields": {
-                                                                                                                  "NUM": 1
+                                                                                                                  "NUM": 2
                                                                                                                 }
                                                                                                               }
                                                                                                             }
@@ -19123,7 +18940,7 @@
                                                                                                 "VALUE-1": {
                                                                                                   "block": {
                                                                                                     "type": "Number",
-                                                                                                    "id": "Oimi=LvvRkX)BoC)R#Y*",
+                                                                                                    "id": "`6p,G/!Cl4QCf6W!$T2{",
                                                                                                     "fields": {
                                                                                                       "NUM": 0
                                                                                                     }
@@ -19133,33 +18950,33 @@
                                                                                               "next": {
                                                                                                 "block": {
                                                                                                   "type": "SetVariable",
-                                                                                                  "id": "@{XiglQRBGF:KE!jLQH!",
+                                                                                                  "id": "{zx%Xcp0^5P(@0A=d6HS",
                                                                                                   "inputs": {
                                                                                                     "VALUE-0": {
                                                                                                       "block": {
                                                                                                         "type": "variableReferenceBlock",
-                                                                                                        "id": ";}GC:0ZwSELku[2vka$[",
+                                                                                                        "id": "3~HJrdAljAnQ6^#m5NNV",
                                                                                                         "extraState": {
                                                                                                           "isObjectVar": true
                                                                                                         },
                                                                                                         "fields": {
                                                                                                           "OBJECTTYPE": "TeamId",
                                                                                                           "VAR": {
-                                                                                                            "id": "$t:SQ(*BQJsR1^8Bt`S4"
+                                                                                                            "id": "_$n(lHKL1^TW7]zCOBNb"
                                                                                                           }
                                                                                                         },
                                                                                                         "inputs": {
                                                                                                           "OBJECT": {
                                                                                                             "block": {
                                                                                                               "type": "GetTeamId",
-                                                                                                              "id": "4M5$oddPhy3(bO=S@q@9",
+                                                                                                              "id": "w:9jflk5x$xx59G;[g2x",
                                                                                                               "inputs": {
                                                                                                                 "VALUE-0": {
                                                                                                                   "block": {
                                                                                                                     "type": "Number",
-                                                                                                                    "id": "DrxFsD#+6]e.e..U*h=$",
+                                                                                                                    "id": "kqiG0{V+#`hF($vo31.%",
                                                                                                                     "fields": {
-                                                                                                                      "NUM": 2
+                                                                                                                      "NUM": 1
                                                                                                                     }
                                                                                                                   }
                                                                                                                 }
@@ -19172,7 +18989,7 @@
                                                                                                     "VALUE-1": {
                                                                                                       "block": {
                                                                                                         "type": "Number",
-                                                                                                        "id": "`6p,G/!Cl4QCf6W!$T2{",
+                                                                                                        "id": "n+UY8m|Mp7HyzYa7x~M,",
                                                                                                         "fields": {
                                                                                                           "NUM": 0
                                                                                                         }
@@ -19182,12 +18999,12 @@
                                                                                                   "next": {
                                                                                                     "block": {
                                                                                                       "type": "SetVariable",
-                                                                                                      "id": "{zx%Xcp0^5P(@0A=d6HS",
+                                                                                                      "id": "CGDsE:#-/S[~rC%0%^yP",
                                                                                                       "inputs": {
                                                                                                         "VALUE-0": {
                                                                                                           "block": {
                                                                                                             "type": "variableReferenceBlock",
-                                                                                                            "id": "3~HJrdAljAnQ6^#m5NNV",
+                                                                                                            "id": "VIu4pZcYaH*%*K5hpbEX",
                                                                                                             "extraState": {
                                                                                                               "isObjectVar": true
                                                                                                             },
@@ -19201,14 +19018,14 @@
                                                                                                               "OBJECT": {
                                                                                                                 "block": {
                                                                                                                   "type": "GetTeamId",
-                                                                                                                  "id": "w:9jflk5x$xx59G;[g2x",
+                                                                                                                  "id": "xKhKJRed1kUS-.W*`TUU",
                                                                                                                   "inputs": {
                                                                                                                     "VALUE-0": {
                                                                                                                       "block": {
                                                                                                                         "type": "Number",
-                                                                                                                        "id": "kqiG0{V+#`hF($vo31.%",
+                                                                                                                        "id": "ed=CYwFWVYX;Bx2`4:tm",
                                                                                                                         "fields": {
-                                                                                                                          "NUM": 1
+                                                                                                                          "NUM": 2
                                                                                                                         }
                                                                                                                       }
                                                                                                                     }
@@ -19221,7 +19038,7 @@
                                                                                                         "VALUE-1": {
                                                                                                           "block": {
                                                                                                             "type": "Number",
-                                                                                                            "id": "n+UY8m|Mp7HyzYa7x~M,",
+                                                                                                            "id": "MvhM?!*/vIWs`*]q/fGb",
                                                                                                             "fields": {
                                                                                                               "NUM": 0
                                                                                                             }
@@ -19231,38 +19048,19 @@
                                                                                                       "next": {
                                                                                                         "block": {
                                                                                                           "type": "SetVariable",
-                                                                                                          "id": "CGDsE:#-/S[~rC%0%^yP",
+                                                                                                          "id": "Tfk~#y0R0:z2MjTURk+B",
                                                                                                           "inputs": {
                                                                                                             "VALUE-0": {
                                                                                                               "block": {
                                                                                                                 "type": "variableReferenceBlock",
-                                                                                                                "id": "VIu4pZcYaH*%*K5hpbEX",
+                                                                                                                "id": "SB-0P:D/u[Pg*3c_J+mP",
                                                                                                                 "extraState": {
-                                                                                                                  "isObjectVar": true
+                                                                                                                  "isObjectVar": false
                                                                                                                 },
                                                                                                                 "fields": {
-                                                                                                                  "OBJECTTYPE": "TeamId",
+                                                                                                                  "OBJECTTYPE": "Global",
                                                                                                                   "VAR": {
-                                                                                                                    "id": "_$n(lHKL1^TW7]zCOBNb"
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                "inputs": {
-                                                                                                                  "OBJECT": {
-                                                                                                                    "block": {
-                                                                                                                      "type": "GetTeamId",
-                                                                                                                      "id": "xKhKJRed1kUS-.W*`TUU",
-                                                                                                                      "inputs": {
-                                                                                                                        "VALUE-0": {
-                                                                                                                          "block": {
-                                                                                                                            "type": "Number",
-                                                                                                                            "id": "ed=CYwFWVYX;Bx2`4:tm",
-                                                                                                                            "fields": {
-                                                                                                                              "NUM": 2
-                                                                                                                            }
-                                                                                                                          }
-                                                                                                                        }
-                                                                                                                      }
-                                                                                                                    }
+                                                                                                                    "id": ".q?zFA#heLrK0A@v+ut;"
                                                                                                                   }
                                                                                                                 }
                                                                                                               }
@@ -19270,7 +19068,7 @@
                                                                                                             "VALUE-1": {
                                                                                                               "block": {
                                                                                                                 "type": "Number",
-                                                                                                                "id": "MvhM?!*/vIWs`*]q/fGb",
+                                                                                                                "id": "Qd4d[)N{KmD,SZFD=/O1",
                                                                                                                 "fields": {
                                                                                                                   "NUM": 0
                                                                                                                 }
@@ -19279,43 +19077,28 @@
                                                                                                           },
                                                                                                           "next": {
                                                                                                             "block": {
-                                                                                                              "type": "SetVariable",
-                                                                                                              "id": "Tfk~#y0R0:z2MjTURk+B",
+                                                                                                              "type": "EnableDefaultScoring",
+                                                                                                              "id": "7^T),Pmc?~~Uf{{^GA5r",
                                                                                                               "inputs": {
                                                                                                                 "VALUE-0": {
                                                                                                                   "block": {
-                                                                                                                    "type": "variableReferenceBlock",
-                                                                                                                    "id": "SB-0P:D/u[Pg*3c_J+mP",
-                                                                                                                    "extraState": {
-                                                                                                                      "isObjectVar": false
-                                                                                                                    },
+                                                                                                                    "type": "Boolean",
+                                                                                                                    "id": "F5fl[YV_FFMydL,S1:w/",
                                                                                                                     "fields": {
-                                                                                                                      "OBJECTTYPE": "Global",
-                                                                                                                      "VAR": {
-                                                                                                                        "id": ".q?zFA#heLrK0A@v+ut;"
-                                                                                                                      }
-                                                                                                                    }
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                "VALUE-1": {
-                                                                                                                  "block": {
-                                                                                                                    "type": "Number",
-                                                                                                                    "id": "Qd4d[)N{KmD,SZFD=/O1",
-                                                                                                                    "fields": {
-                                                                                                                      "NUM": 0
+                                                                                                                      "BOOL": "FALSE"
                                                                                                                     }
                                                                                                                   }
                                                                                                                 }
                                                                                                               },
                                                                                                               "next": {
                                                                                                                 "block": {
-                                                                                                                  "type": "EnableDefaultScoring",
-                                                                                                                  "id": "7^T),Pmc?~~Uf{{^GA5r",
+                                                                                                                  "type": "EnableDefaultWinCondition",
+                                                                                                                  "id": "AnSg+UeZasd5}YSQ_n/e",
                                                                                                                   "inputs": {
                                                                                                                     "VALUE-0": {
                                                                                                                       "block": {
                                                                                                                         "type": "Boolean",
-                                                                                                                        "id": "F5fl[YV_FFMydL,S1:w/",
+                                                                                                                        "id": "ps!!{SK1YBgb*9#w-;eI",
                                                                                                                         "fields": {
                                                                                                                           "BOOL": "FALSE"
                                                                                                                         }
@@ -19324,13 +19107,13 @@
                                                                                                                   },
                                                                                                                   "next": {
                                                                                                                     "block": {
-                                                                                                                      "type": "EnableDefaultWinCondition",
-                                                                                                                      "id": "AnSg+UeZasd5}YSQ_n/e",
+                                                                                                                      "type": "EnableFastTicketBleed",
+                                                                                                                      "id": "c}8dF)3r|%?F`v|^Zn`_",
                                                                                                                       "inputs": {
                                                                                                                         "VALUE-0": {
                                                                                                                           "block": {
                                                                                                                             "type": "Boolean",
-                                                                                                                            "id": "ps!!{SK1YBgb*9#w-;eI",
+                                                                                                                            "id": "vgG0?wCpu}{AzX#,xOty",
                                                                                                                             "fields": {
                                                                                                                               "BOOL": "FALSE"
                                                                                                                             }
@@ -19339,58 +19122,89 @@
                                                                                                                       },
                                                                                                                       "next": {
                                                                                                                         "block": {
-                                                                                                                          "type": "EnableFastTicketBleed",
-                                                                                                                          "id": "c}8dF)3r|%?F`v|^Zn`_",
+                                                                                                                          "type": "SetTargetScore",
+                                                                                                                          "id": "prL1G9%@DE|9jxz#AqfP",
                                                                                                                           "inputs": {
                                                                                                                             "VALUE-0": {
                                                                                                                               "block": {
-                                                                                                                                "type": "Boolean",
-                                                                                                                                "id": "vgG0?wCpu}{AzX#,xOty",
-                                                                                                                                "fields": {
-                                                                                                                                  "BOOL": "FALSE"
+                                                                                                                                "type": "Add",
+                                                                                                                                "id": "v.:/5PB2Kd;LhHC5}nT9",
+                                                                                                                                "inputs": {
+                                                                                                                                  "VALUE-0": {
+                                                                                                                                    "block": {
+                                                                                                                                      "type": "GetVariable",
+                                                                                                                                      "id": "`iLW?d@97}d3+/Wd/a,p",
+                                                                                                                                      "inputs": {
+                                                                                                                                        "VALUE-0": {
+                                                                                                                                          "block": {
+                                                                                                                                            "type": "variableReferenceBlock",
+                                                                                                                                            "id": "bdE84YmGqrd_.A`bNC|T",
+                                                                                                                                            "extraState": {
+                                                                                                                                              "isObjectVar": false
+                                                                                                                                            },
+                                                                                                                                            "fields": {
+                                                                                                                                              "OBJECTTYPE": "Global",
+                                                                                                                                              "VAR": {
+                                                                                                                                                "id": "+Gl73eOP#EN^JuAh0pRx"
+                                                                                                                                              }
+                                                                                                                                            }
+                                                                                                                                          }
+                                                                                                                                        }
+                                                                                                                                      }
+                                                                                                                                    }
+                                                                                                                                  },
+                                                                                                                                  "VALUE-1": {
+                                                                                                                                    "block": {
+                                                                                                                                      "type": "Number",
+                                                                                                                                      "id": "WKX]4T[];Y9amTVExs,u",
+                                                                                                                                      "fields": {
+                                                                                                                                        "NUM": 1
+                                                                                                                                      }
+                                                                                                                                    }
+                                                                                                                                  }
                                                                                                                                 }
                                                                                                                               }
                                                                                                                             }
                                                                                                                           },
                                                                                                                           "next": {
                                                                                                                             "block": {
-                                                                                                                              "type": "SetTargetScore",
-                                                                                                                              "id": "prL1G9%@DE|9jxz#AqfP",
+                                                                                                                              "type": "SetGamemodeScore",
+                                                                                                                              "id": "[g({QVM?bK8bpTWC=J15",
                                                                                                                               "inputs": {
                                                                                                                                 "VALUE-0": {
                                                                                                                                   "block": {
-                                                                                                                                    "type": "Add",
-                                                                                                                                    "id": "v.:/5PB2Kd;LhHC5}nT9",
+                                                                                                                                    "type": "GetTeamId",
+                                                                                                                                    "id": ".{I|[w7dghwKa*AVce3H",
                                                                                                                                     "inputs": {
                                                                                                                                       "VALUE-0": {
                                                                                                                                         "block": {
-                                                                                                                                          "type": "GetVariable",
-                                                                                                                                          "id": "`iLW?d@97}d3+/Wd/a,p",
-                                                                                                                                          "inputs": {
-                                                                                                                                            "VALUE-0": {
-                                                                                                                                              "block": {
-                                                                                                                                                "type": "variableReferenceBlock",
-                                                                                                                                                "id": "bdE84YmGqrd_.A`bNC|T",
-                                                                                                                                                "extraState": {
-                                                                                                                                                  "isObjectVar": false
-                                                                                                                                                },
-                                                                                                                                                "fields": {
-                                                                                                                                                  "OBJECTTYPE": "Global",
-                                                                                                                                                  "VAR": {
-                                                                                                                                                    "id": "+Gl73eOP#EN^JuAh0pRx"
-                                                                                                                                                  }
-                                                                                                                                                }
-                                                                                                                                              }
-                                                                                                                                            }
-                                                                                                                                          }
-                                                                                                                                        }
-                                                                                                                                      },
-                                                                                                                                      "VALUE-1": {
-                                                                                                                                        "block": {
                                                                                                                                           "type": "Number",
-                                                                                                                                          "id": "WKX]4T[];Y9amTVExs,u",
+                                                                                                                                          "id": "gBHWjte7*R3e:8JWcWdu",
                                                                                                                                           "fields": {
                                                                                                                                             "NUM": 1
+                                                                                                                                          }
+                                                                                                                                        }
+                                                                                                                                      }
+                                                                                                                                    }
+                                                                                                                                  }
+                                                                                                                                },
+                                                                                                                                "VALUE-1": {
+                                                                                                                                  "block": {
+                                                                                                                                    "type": "GetVariable",
+                                                                                                                                    "id": "4_+yYJN#8/uRn:CV)I}b",
+                                                                                                                                    "inputs": {
+                                                                                                                                      "VALUE-0": {
+                                                                                                                                        "block": {
+                                                                                                                                          "type": "variableReferenceBlock",
+                                                                                                                                          "id": ";@nK~sus7iQTL(#{#!.4",
+                                                                                                                                          "extraState": {
+                                                                                                                                            "isObjectVar": false
+                                                                                                                                          },
+                                                                                                                                          "fields": {
+                                                                                                                                            "OBJECTTYPE": "Global",
+                                                                                                                                            "VAR": {
+                                                                                                                                              "id": "+Gl73eOP#EN^JuAh0pRx"
+                                                                                                                                            }
                                                                                                                                           }
                                                                                                                                         }
                                                                                                                                       }
@@ -19401,19 +19215,19 @@
                                                                                                                               "next": {
                                                                                                                                 "block": {
                                                                                                                                   "type": "SetGamemodeScore",
-                                                                                                                                  "id": "[g({QVM?bK8bpTWC=J15",
+                                                                                                                                  "id": "56F`6u8t;1mWrA~)L|YF",
                                                                                                                                   "inputs": {
                                                                                                                                     "VALUE-0": {
                                                                                                                                       "block": {
                                                                                                                                         "type": "GetTeamId",
-                                                                                                                                        "id": ".{I|[w7dghwKa*AVce3H",
+                                                                                                                                        "id": "hrd/c7#|T_];0j8G7kRb",
                                                                                                                                         "inputs": {
                                                                                                                                           "VALUE-0": {
                                                                                                                                             "block": {
                                                                                                                                               "type": "Number",
-                                                                                                                                              "id": "gBHWjte7*R3e:8JWcWdu",
+                                                                                                                                              "id": "]V2ie)_c,^E}ymI}Dg.M",
                                                                                                                                               "fields": {
-                                                                                                                                                "NUM": 1
+                                                                                                                                                "NUM": 2
                                                                                                                                               }
                                                                                                                                             }
                                                                                                                                           }
@@ -19423,12 +19237,12 @@
                                                                                                                                     "VALUE-1": {
                                                                                                                                       "block": {
                                                                                                                                         "type": "GetVariable",
-                                                                                                                                        "id": "4_+yYJN#8/uRn:CV)I}b",
+                                                                                                                                        "id": "mS/aXPfo@^,XsUbW8T|g",
                                                                                                                                         "inputs": {
                                                                                                                                           "VALUE-0": {
                                                                                                                                             "block": {
                                                                                                                                               "type": "variableReferenceBlock",
-                                                                                                                                              "id": ";@nK~sus7iQTL(#{#!.4",
+                                                                                                                                              "id": "v8,_5pTcUubuga(r4Q;j",
                                                                                                                                               "extraState": {
                                                                                                                                                 "isObjectVar": false
                                                                                                                                               },
@@ -19446,76 +19260,65 @@
                                                                                                                                   },
                                                                                                                                   "next": {
                                                                                                                                     "block": {
-                                                                                                                                      "type": "SetGamemodeScore",
-                                                                                                                                      "id": "56F`6u8t;1mWrA~)L|YF",
-                                                                                                                                      "inputs": {
-                                                                                                                                        "VALUE-0": {
-                                                                                                                                          "block": {
-                                                                                                                                            "type": "GetTeamId",
-                                                                                                                                            "id": "hrd/c7#|T_];0j8G7kRb",
-                                                                                                                                            "inputs": {
-                                                                                                                                              "VALUE-0": {
-                                                                                                                                                "block": {
-                                                                                                                                                  "type": "Number",
-                                                                                                                                                  "id": "]V2ie)_c,^E}ymI}Dg.M",
-                                                                                                                                                  "fields": {
-                                                                                                                                                    "NUM": 2
-                                                                                                                                                  }
-                                                                                                                                                }
-                                                                                                                                              }
-                                                                                                                                            }
-                                                                                                                                          }
-                                                                                                                                        },
-                                                                                                                                        "VALUE-1": {
-                                                                                                                                          "block": {
-                                                                                                                                            "type": "GetVariable",
-                                                                                                                                            "id": "mS/aXPfo@^,XsUbW8T|g",
-                                                                                                                                            "inputs": {
-                                                                                                                                              "VALUE-0": {
-                                                                                                                                                "block": {
-                                                                                                                                                  "type": "variableReferenceBlock",
-                                                                                                                                                  "id": "v8,_5pTcUubuga(r4Q;j",
-                                                                                                                                                  "extraState": {
-                                                                                                                                                    "isObjectVar": false
-                                                                                                                                                  },
-                                                                                                                                                  "fields": {
-                                                                                                                                                    "OBJECTTYPE": "Global",
-                                                                                                                                                    "VAR": {
-                                                                                                                                                      "id": "+Gl73eOP#EN^JuAh0pRx"
-                                                                                                                                                    }
-                                                                                                                                                  }
-                                                                                                                                                }
-                                                                                                                                              }
-                                                                                                                                            }
-                                                                                                                                          }
-                                                                                                                                        }
+                                                                                                                                      "type": "subroutineInstanceBlock",
+                                                                                                                                      "id": "!].B]cCqV0A-qZ5,/f)|",
+                                                                                                                                      "extraState": {
+                                                                                                                                        "subroutineName": "initIcons",
+                                                                                                                                        "parameters": []
+                                                                                                                                      },
+                                                                                                                                      "fields": {
+                                                                                                                                        "SUBROUTINE_NAME": "initIcons"
                                                                                                                                       },
                                                                                                                                       "next": {
                                                                                                                                         "block": {
                                                                                                                                           "type": "subroutineInstanceBlock",
-                                                                                                                                          "id": "!].B]cCqV0A-qZ5,/f)|",
+                                                                                                                                          "id": "+729Bs}^kxGh;aCQ9A[X",
                                                                                                                                           "extraState": {
-                                                                                                                                            "subroutineName": "initIcons",
+                                                                                                                                            "subroutineName": "initMap",
                                                                                                                                             "parameters": []
                                                                                                                                           },
                                                                                                                                           "fields": {
-                                                                                                                                            "SUBROUTINE_NAME": "initIcons"
+                                                                                                                                            "SUBROUTINE_NAME": "initMap"
                                                                                                                                           },
                                                                                                                                           "next": {
                                                                                                                                             "block": {
                                                                                                                                               "type": "subroutineInstanceBlock",
-                                                                                                                                              "id": "+729Bs}^kxGh;aCQ9A[X",
+                                                                                                                                              "id": "xxOVpV2VExl8hScuXNit",
                                                                                                                                               "extraState": {
-                                                                                                                                                "subroutineName": "initMap",
-                                                                                                                                                "parameters": []
+                                                                                                                                                "subroutineName": "nextMcom",
+                                                                                                                                                "parameters": [
+                                                                                                                                                  {
+                                                                                                                                                    "types": "TeamId",
+                                                                                                                                                    "name": "team"
+                                                                                                                                                  }
+                                                                                                                                                ]
                                                                                                                                               },
                                                                                                                                               "fields": {
-                                                                                                                                                "SUBROUTINE_NAME": "initMap"
+                                                                                                                                                "SUBROUTINE_NAME": "nextMcom"
+                                                                                                                                              },
+                                                                                                                                              "inputs": {
+                                                                                                                                                "PARAM-0": {
+                                                                                                                                                  "block": {
+                                                                                                                                                    "type": "GetTeamId",
+                                                                                                                                                    "id": "kxR`HFh(eOiO}}-^m`v|",
+                                                                                                                                                    "inputs": {
+                                                                                                                                                      "VALUE-0": {
+                                                                                                                                                        "block": {
+                                                                                                                                                          "type": "Number",
+                                                                                                                                                          "id": "[KMaI?I#[Zq2+lX-O}8#",
+                                                                                                                                                          "fields": {
+                                                                                                                                                            "NUM": 1
+                                                                                                                                                          }
+                                                                                                                                                        }
+                                                                                                                                                      }
+                                                                                                                                                    }
+                                                                                                                                                  }
+                                                                                                                                                }
                                                                                                                                               },
                                                                                                                                               "next": {
                                                                                                                                                 "block": {
                                                                                                                                                   "type": "subroutineInstanceBlock",
-                                                                                                                                                  "id": "xxOVpV2VExl8hScuXNit",
+                                                                                                                                                  "id": "o#KL@^S#[Yg8`4(53s|0",
                                                                                                                                                   "extraState": {
                                                                                                                                                     "subroutineName": "nextMcom",
                                                                                                                                                     "parameters": [
@@ -19532,14 +19335,14 @@
                                                                                                                                                     "PARAM-0": {
                                                                                                                                                       "block": {
                                                                                                                                                         "type": "GetTeamId",
-                                                                                                                                                        "id": "kxR`HFh(eOiO}}-^m`v|",
+                                                                                                                                                        "id": "$60sVp9CZ!8%@UpH}##F",
                                                                                                                                                         "inputs": {
                                                                                                                                                           "VALUE-0": {
                                                                                                                                                             "block": {
                                                                                                                                                               "type": "Number",
-                                                                                                                                                              "id": "[KMaI?I#[Zq2+lX-O}8#",
+                                                                                                                                                              "id": "t)%E(VLoSF%0Xjz{L4km",
                                                                                                                                                               "fields": {
-                                                                                                                                                                "NUM": 1
+                                                                                                                                                                "NUM": 2
                                                                                                                                                               }
                                                                                                                                                             }
                                                                                                                                                           }
@@ -19549,92 +19352,30 @@
                                                                                                                                                   },
                                                                                                                                                   "next": {
                                                                                                                                                     "block": {
-                                                                                                                                                      "type": "subroutineInstanceBlock",
-                                                                                                                                                      "id": "o#KL@^S#[Yg8`4(53s|0",
-                                                                                                                                                      "extraState": {
-                                                                                                                                                        "subroutineName": "nextMcom",
-                                                                                                                                                        "parameters": [
-                                                                                                                                                          {
-                                                                                                                                                            "types": "TeamId",
-                                                                                                                                                            "name": "team"
-                                                                                                                                                          }
-                                                                                                                                                        ]
-                                                                                                                                                      },
-                                                                                                                                                      "fields": {
-                                                                                                                                                        "SUBROUTINE_NAME": "nextMcom"
-                                                                                                                                                      },
+                                                                                                                                                      "type": "SetVariable",
+                                                                                                                                                      "id": "w8v%eyFvumm`@8_9-9/G",
                                                                                                                                                       "inputs": {
-                                                                                                                                                        "PARAM-0": {
+                                                                                                                                                        "VALUE-0": {
                                                                                                                                                           "block": {
-                                                                                                                                                            "type": "GetTeamId",
-                                                                                                                                                            "id": "$60sVp9CZ!8%@UpH}##F",
-                                                                                                                                                            "inputs": {
-                                                                                                                                                              "VALUE-0": {
-                                                                                                                                                                "block": {
-                                                                                                                                                                  "type": "Number",
-                                                                                                                                                                  "id": "t)%E(VLoSF%0Xjz{L4km",
-                                                                                                                                                                  "fields": {
-                                                                                                                                                                    "NUM": 2
-                                                                                                                                                                  }
-                                                                                                                                                                }
+                                                                                                                                                            "type": "variableReferenceBlock",
+                                                                                                                                                            "id": "KEc:taNgYDf3B$h5Bqx/",
+                                                                                                                                                            "extraState": {
+                                                                                                                                                              "isObjectVar": false
+                                                                                                                                                            },
+                                                                                                                                                            "fields": {
+                                                                                                                                                              "OBJECTTYPE": "Global",
+                                                                                                                                                              "VAR": {
+                                                                                                                                                                "id": ":M2x^kEWYh[$GEl,K@(b"
                                                                                                                                                               }
                                                                                                                                                             }
                                                                                                                                                           }
-                                                                                                                                                        }
-                                                                                                                                                      },
-                                                                                                                                                      "next": {
-                                                                                                                                                        "block": {
-                                                                                                                                                          "type": "SetVariable",
-                                                                                                                                                          "id": "w8v%eyFvumm`@8_9-9/G",
-                                                                                                                                                          "inputs": {
-                                                                                                                                                            "VALUE-0": {
-                                                                                                                                                              "block": {
-                                                                                                                                                                "type": "variableReferenceBlock",
-                                                                                                                                                                "id": "KEc:taNgYDf3B$h5Bqx/",
-                                                                                                                                                                "extraState": {
-                                                                                                                                                                  "isObjectVar": false
-                                                                                                                                                                },
-                                                                                                                                                                "fields": {
-                                                                                                                                                                  "OBJECTTYPE": "Global",
-                                                                                                                                                                  "VAR": {
-                                                                                                                                                                    "id": ":M2x^kEWYh[$GEl,K@(b"
-                                                                                                                                                                  }
-                                                                                                                                                                }
-                                                                                                                                                              }
-                                                                                                                                                            },
-                                                                                                                                                            "VALUE-1": {
-                                                                                                                                                              "block": {
-                                                                                                                                                                "type": "Boolean",
-                                                                                                                                                                "id": "a8P!zx_4{3glwNr-RLSu",
-                                                                                                                                                                "fields": {
-                                                                                                                                                                  "BOOL": "TRUE"
-                                                                                                                                                                }
-                                                                                                                                                              }
-                                                                                                                                                            }
-                                                                                                                                                          },
-                                                                                                                                                          "next": {
-                                                                                                                                                            "block": {
-                                                                                                                                                              "type": "SendErrorReport",
-                                                                                                                                                              "id": "^/*$r}nA7b-Pxhg]DyBr",
-                                                                                                                                                              "inputs": {
-                                                                                                                                                                "VALUE-0": {
-                                                                                                                                                                  "block": {
-                                                                                                                                                                    "type": "Message",
-                                                                                                                                                                    "id": "t:eqtSe;7hXJT`D(#rn%",
-                                                                                                                                                                    "inputs": {
-                                                                                                                                                                      "VALUE-0": {
-                                                                                                                                                                        "block": {
-                                                                                                                                                                          "type": "Text",
-                                                                                                                                                                          "id": "Q)uUQ-S%i{j`$g/`fI3O",
-                                                                                                                                                                          "fields": {
-                                                                                                                                                                            "TEXT": "DEBUG: Gamemode initialized!"
-                                                                                                                                                                          }
-                                                                                                                                                                        }
-                                                                                                                                                                      }
-                                                                                                                                                                    }
-                                                                                                                                                                  }
-                                                                                                                                                                }
-                                                                                                                                                              }
+                                                                                                                                                        },
+                                                                                                                                                        "VALUE-1": {
+                                                                                                                                                          "block": {
+                                                                                                                                                            "type": "Boolean",
+                                                                                                                                                            "id": "a8P!zx_4{3glwNr-RLSu",
+                                                                                                                                                            "fields": {
+                                                                                                                                                              "BOOL": "TRUE"
                                                                                                                                                             }
                                                                                                                                                           }
                                                                                                                                                         }
@@ -19715,7 +19456,7 @@
         "type": "subroutineBlock",
         "id": "1,48NRX2SVX9@8N;OgOf",
         "x": 0,
-        "y": 25535,
+        "y": 25801,
         "extraState": {
           "subroutineName": "initIcons",
           "parameters": []
@@ -19908,7 +19649,7 @@
         "type": "subroutineBlock",
         "id": ".G!BpQTlin4/()H%z+2_",
         "x": 0,
-        "y": 24412,
+        "y": 24678,
         "extraState": {
           "subroutineName": "updateHackerPosition",
           "parameters": [
@@ -20235,7 +19976,7 @@
         "type": "subroutineBlock",
         "id": "oiKl1nj_sI/?:N8,]U_L",
         "x": 0,
-        "y": 18790,
+        "y": 19056,
         "extraState": {
           "subroutineName": "nextMcom",
           "parameters": [
@@ -20655,7 +20396,7 @@
         "type": "subroutineBlock",
         "id": "m-#B9fB{+9b`-s{gN%Mq",
         "x": 0,
-        "y": 25868,
+        "y": 26134,
         "extraState": {
           "subroutineName": "updateIcon",
           "parameters": [
@@ -21044,7 +20785,7 @@
         "type": "subroutineBlock",
         "id": "V*r/%6u4rGN|nyU6VB17",
         "x": 0,
-        "y": 8268,
+        "y": 8534,
         "extraState": {
           "subroutineName": "resetHacker",
           "parameters": [
@@ -21470,7 +21211,7 @@
         "type": "subroutineBlock",
         "id": "0O,thCXo^K5DNISO:|.#",
         "x": 0,
-        "y": 21722,
+        "y": 21988,
         "extraState": {
           "subroutineName": "updatePreparationIcon",
           "parameters": [
@@ -22076,6 +21817,243 @@
                                   "id": "G9Yc3Kn:c*|xHleuzF,4",
                                   "fields": {
                                     "BOOL": "FALSE"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "subroutineBlock",
+        "id": "]:}bcGXi!-UH0kZjCe2N",
+        "x": 0,
+        "y": 7911,
+        "extraState": {
+          "subroutineName": "cnc_init",
+          "parameters": []
+        },
+        "fields": {
+          "SUBROUTINE_NAME": "cnc_init"
+        },
+        "inputs": {
+          "ACTIONS": {
+            "block": {
+              "type": "SetVariable",
+              "id": "O3l/[[RyjyQef[0,Y#{G",
+              "inputs": {
+                "VALUE-0": {
+                  "block": {
+                    "type": "variableReferenceBlock",
+                    "id": "$1w69JN#CFX*G$J@9ejC",
+                    "extraState": {
+                      "isObjectVar": false
+                    },
+                    "fields": {
+                      "OBJECTTYPE": "Global",
+                      "VAR": {
+                        "id": "+Gl73eOP#EN^JuAh0pRx"
+                      }
+                    }
+                  }
+                },
+                "VALUE-1": {
+                  "block": {
+                    "type": "Number",
+                    "id": "q9/k5}rm5/z.Z!4ZdwJ7",
+                    "fields": {
+                      "NUM": 2042
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "SetVariable",
+                  "id": "uO7OVWJqV)A[yBbvky/?",
+                  "inputs": {
+                    "VALUE-0": {
+                      "block": {
+                        "type": "variableReferenceBlock",
+                        "id": "#e3T@uws5g%+NvEl2R8B",
+                        "extraState": {
+                          "isObjectVar": false
+                        },
+                        "fields": {
+                          "OBJECTTYPE": "Global",
+                          "VAR": {
+                            "id": "%@k*SqjUMps/UJhlB5WL"
+                          }
+                        }
+                      }
+                    },
+                    "VALUE-1": {
+                      "block": {
+                        "type": "Number",
+                        "id": "WxvFQWf6%w$F*r!l*JNE",
+                        "fields": {
+                          "NUM": 3
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "SetVariable",
+                      "id": "A)K$c{j0UDXa|Opx149[",
+                      "inputs": {
+                        "VALUE-0": {
+                          "block": {
+                            "type": "variableReferenceBlock",
+                            "id": "X$|.J8qIbjoYvb9YHT+)",
+                            "extraState": {
+                              "isObjectVar": false
+                            },
+                            "fields": {
+                              "OBJECTTYPE": "Global",
+                              "VAR": {
+                                "id": "I#230JHl#@8O:AT+J.;("
+                              }
+                            }
+                          }
+                        },
+                        "VALUE-1": {
+                          "block": {
+                            "type": "Number",
+                            "id": "6(vh+TqRditTrB3%B8mU",
+                            "fields": {
+                              "NUM": 30
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "SetVariable",
+                          "id": "+wGtqt9LOJH{m~]hhA59",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "60O@xYpQpa/bv1vk.d-Q",
+                                "extraState": {
+                                  "isObjectVar": false
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "Global",
+                                  "VAR": {
+                                    "id": "yFnf}qG?]7U=vy@6)3se"
+                                  }
+                                }
+                              }
+                            },
+                            "VALUE-1": {
+                              "block": {
+                                "type": "Boolean",
+                                "id": "un/Cag!T~+^b[kEJ%B;%",
+                                "fields": {
+                                  "BOOL": "TRUE"
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "SetVariable",
+                              "id": "sbCB.CKjtc+pz!hL-Guv",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "variableReferenceBlock",
+                                    "id": ".wW1*#UptDj9cgF$B]~w",
+                                    "extraState": {
+                                      "isObjectVar": false
+                                    },
+                                    "fields": {
+                                      "OBJECTTYPE": "Global",
+                                      "VAR": {
+                                        "id": "rwagCy!4r[I8+uRE;y;."
+                                      }
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "ZjW,ge}R-UlNv8C-9!VD",
+                                    "fields": {
+                                      "NUM": 20
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "SetVariable",
+                                  "id": "lR6X6hodahCh8!b8@a_u",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "variableReferenceBlock",
+                                        "id": "`RP#=d9gbGcx7Oi)D4+!",
+                                        "extraState": {
+                                          "isObjectVar": false
+                                        },
+                                        "fields": {
+                                          "OBJECTTYPE": "Global",
+                                          "VAR": {
+                                            "id": "LL00CV-Zx|8jv/,kuV)Z"
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "VALUE-1": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "o0TsYR8?f|Gq{4zz3=}o",
+                                        "fields": {
+                                          "NUM": 350
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "SetRoundTimeLimit",
+                                      "id": "/h2aEIK%O;Qx`#;g6]t`",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": ",7ehnq8($(),DhXykdSo",
+                                            "fields": {
+                                              "NUM": 1200
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "subroutineInstanceBlock",
+                                          "id": "q[drJV7Tk2@21q{Zy+T,",
+                                          "extraState": {
+                                            "subroutineName": "cnc_internalInit",
+                                            "parameters": []
+                                          },
+                                          "fields": {
+                                            "SUBROUTINE_NAME": "cnc_internalInit"
+                                          }
+                                        }
+                                      }
+                                    }
                                   }
                                 }
                               }
