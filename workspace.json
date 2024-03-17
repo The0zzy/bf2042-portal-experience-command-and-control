@@ -1495,6 +1495,37 @@
                                                 "EVENTTYPE": "OnPlayerDeployed"
                                               },
                                               "inputs": {
+                                                "CONDITIONS": {
+                                                  "block": {
+                                                    "type": "conditionBlock",
+                                                    "id": "Vq#X2UsQUJ!hvTWbH_UX",
+                                                    "inputs": {
+                                                      "CONDITION": {
+                                                        "block": {
+                                                          "type": "GetVariable",
+                                                          "id": "Sy{[V7pc/e~-x--,H,,U",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "variableReferenceBlock",
+                                                                "id": "pxb~,cGoRK,8=7-fwnHw",
+                                                                "extraState": {
+                                                                  "isObjectVar": false
+                                                                },
+                                                                "fields": {
+                                                                  "OBJECTTYPE": "Global",
+                                                                  "VAR": {
+                                                                    "id": ":M2x^kEWYh[$GEl,K@(b"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
                                                 "ACTIONS": {
                                                   "block": {
                                                     "type": "subroutineInstanceBlock",
@@ -2001,6 +2032,37 @@
                                                                     "EVENTTYPE": "OnPlayerJoinGame"
                                                                   },
                                                                   "inputs": {
+                                                                    "CONDITIONS": {
+                                                                      "block": {
+                                                                        "type": "conditionBlock",
+                                                                        "id": "H%gRzIE2KgrXZH*zB%2;",
+                                                                        "inputs": {
+                                                                          "CONDITION": {
+                                                                            "block": {
+                                                                              "type": "GetVariable",
+                                                                              "id": "76`[:wFeC/!QyUYk.QK;",
+                                                                              "inputs": {
+                                                                                "VALUE-0": {
+                                                                                  "block": {
+                                                                                    "type": "variableReferenceBlock",
+                                                                                    "id": "=7`B.P3~W2JpZ44x7O9N",
+                                                                                    "extraState": {
+                                                                                      "isObjectVar": false
+                                                                                    },
+                                                                                    "fields": {
+                                                                                      "OBJECTTYPE": "Global",
+                                                                                      "VAR": {
+                                                                                        "id": ":M2x^kEWYh[$GEl,K@(b"
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    },
                                                                     "ACTIONS": {
                                                                       "block": {
                                                                         "type": "subroutineInstanceBlock",
@@ -3903,7 +3965,7 @@
         "type": "subroutineBlock",
         "id": "*sKG]6,g-cTTTi-s1DRH",
         "x": 0,
-        "y": 20528,
+        "y": 20550,
         "extraState": {
           "subroutineName": "cnc_executeEverySecond",
           "parameters": []
@@ -4300,7 +4362,7 @@
         "type": "subroutineBlock",
         "id": "T4l#.=tJJ^_eWxqrQ:ws",
         "x": 0,
-        "y": 26346,
+        "y": 26368,
         "extraState": {
           "subroutineName": "cnc_tick",
           "parameters": []
@@ -4543,7 +4605,7 @@
         "type": "subroutineBlock",
         "id": "i$pLFEVzuqnyYx2wPhMo",
         "x": 0,
-        "y": 20246,
+        "y": 20268,
         "extraState": {
           "subroutineName": "cnc_removeTickets",
           "parameters": [
@@ -4618,7 +4680,7 @@
         "type": "subroutineBlock",
         "id": "GRkxoNGH0xJIax4V}81a",
         "x": 0,
-        "y": 19544,
+        "y": 19566,
         "extraState": {
           "subroutineName": "cnc_endGameMode",
           "parameters": []
@@ -4891,7 +4953,7 @@
         "type": "subroutineBlock",
         "id": "z8t||`)~78)nFrBPqh.Q",
         "x": 0,
-        "y": 11603,
+        "y": 11625,
         "extraState": {
           "subroutineName": "cnc_initMap",
           "parameters": []
@@ -14971,7 +15033,7 @@
         "type": "subroutineBlock",
         "id": "1vzF1]j80=j#r1!~:V$B",
         "x": 0,
-        "y": 17978,
+        "y": 18000,
         "extraState": {
           "subroutineName": "cnc_addMcom",
           "parameters": [
@@ -15284,7 +15346,7 @@
         "type": "subroutineBlock",
         "id": "@bNE:npsQk;n*pQX^5Pg",
         "x": 0,
-        "y": 19104,
+        "y": 19126,
         "extraState": {
           "subroutineName": "cnc_updateCurrentMcom",
           "parameters": [
@@ -15667,7 +15729,7 @@
         "type": "subroutineBlock",
         "id": "@K]PSsiqD:*G,{iJ.IYY",
         "x": 0,
-        "y": 22486,
+        "y": 22508,
         "extraState": {
           "subroutineName": "cnc_displayMessages",
           "parameters": [
@@ -16968,7 +17030,7 @@
         "type": "subroutineBlock",
         "id": "s9{IbuJ8rr0^mLK]e^%o",
         "x": 0,
-        "y": 24472,
+        "y": 24494,
         "extraState": {
           "subroutineName": "cnc_hackerActions",
           "parameters": [
@@ -17579,7 +17641,7 @@
         "type": "subroutineBlock",
         "id": "NyyMZoic50u)]pC5H$x2",
         "x": 0,
-        "y": 11160,
+        "y": 11182,
         "extraState": {
           "subroutineName": "cnc_initPlayerVariables",
           "parameters": [
@@ -17745,7 +17807,7 @@
         "type": "subroutineBlock",
         "id": "qa*ZXQ`,xazY;LCF:(wn",
         "x": 0,
-        "y": 9143,
+        "y": 9165,
         "extraState": {
           "subroutineName": "cnc_internalInit",
           "parameters": []
@@ -18995,7 +19057,7 @@
         "type": "subroutineBlock",
         "id": "1,48NRX2SVX9@8N;OgOf",
         "x": 0,
-        "y": 25214,
+        "y": 25236,
         "extraState": {
           "subroutineName": "cnc_initIcons",
           "parameters": []
@@ -19188,7 +19250,7 @@
         "type": "subroutineBlock",
         "id": ".G!BpQTlin4/()H%z+2_",
         "x": 0,
-        "y": 24091,
+        "y": 24113,
         "extraState": {
           "subroutineName": "cnc_updateHackerPosition",
           "parameters": [
@@ -19515,7 +19577,7 @@
         "type": "subroutineBlock",
         "id": "oiKl1nj_sI/?:N8,]U_L",
         "x": 0,
-        "y": 18469,
+        "y": 18491,
         "extraState": {
           "subroutineName": "cnc_nextMcom",
           "parameters": [
@@ -19935,7 +19997,7 @@
         "type": "subroutineBlock",
         "id": "m-#B9fB{+9b`-s{gN%Mq",
         "x": 0,
-        "y": 25547,
+        "y": 25569,
         "extraState": {
           "subroutineName": "cnc_updateIcon",
           "parameters": [
@@ -20324,7 +20386,7 @@
         "type": "subroutineBlock",
         "id": "V*r/%6u4rGN|nyU6VB17",
         "x": 0,
-        "y": 8534,
+        "y": 8556,
         "extraState": {
           "subroutineName": "cnc_resetHacker",
           "parameters": [
@@ -20750,7 +20812,7 @@
         "type": "subroutineBlock",
         "id": "0O,thCXo^K5DNISO:|.#",
         "x": 0,
-        "y": 21401,
+        "y": 21423,
         "extraState": {
           "subroutineName": "cnc_updatePreparationIcon",
           "parameters": [
@@ -21375,7 +21437,7 @@
         "type": "subroutineBlock",
         "id": "]:}bcGXi!-UH0kZjCe2N",
         "x": 0,
-        "y": 7911,
+        "y": 7933,
         "extraState": {
           "subroutineName": "cnc_init",
           "parameters": []
